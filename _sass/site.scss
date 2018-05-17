@@ -1,0 +1,277 @@
+//Variables
+$primary-color: #9a9a9a;
+$paragraph-color: #3a3a3a;
+$emphasis-color: #252525;
+$mild-color: #5E5E5E;
+$secondary-emphasis-color: #ffffff;
+$bitcoin-color: #f8940d;
+$check-color: #8ED86C;
+$section-padding: 40px 0;
+$section-extra-padding: 60px 0;
+$separator-color: #E1E8E8;
+$section-primary-background: #f5f6f6;
+$secondary-section-background: #293243;
+$secondary-feature-background: #364359;
+$section-primary-border: #cccccc;
+$list-border-color: #DEDEDE;
+$button-text-color: #535f65;
+$social-icons-color: #A8B6B5;
+$general-link-color: #28a11b;
+
+//Mixins
+@mixin links ($link, $visit, $hover, $active) {
+  text-decoration: none;
+  color: $link;
+  &:visited {
+    text-decoration: none;
+    color: $visit;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $hover;
+  }
+  &:active {
+    text-decoration: none;
+    color: $active;
+  }
+}
+
+//Extensions
+%primary-text {
+  color: $primary-color;
+}
+
+%emphasis-text {
+  color: $emphasis-color;
+}
+
+%primary-links {
+  @include links($primary-color, $primary-color, $primary-color, $primary-color);
+}
+
+%list-border {
+  border-radius: 3px;
+  border: 1px solid $list-border-color;
+}
+
+//Styles
+html, body {
+  font-family: 'Noto Sans';
+  font-size: 16px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+section {
+  padding: $section-padding;
+  font-size: 1rem;
+  &.extra {
+    padding: $section-extra-padding;
+  }
+}
+
+footer {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.9375em;
+  color: $paragraph-color;
+}
+
+a {
+  @include links(inherit, inherit, inherit, inherit);
+}
+
+.general-link {
+  @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color);
+}
+
+span.bold {
+  font-weight: 700;
+}
+
+.navbar {
+  @extend %primary-text;
+  font-size: 1rem;
+}
+
+a.nav-link {
+  @extend %primary-links;
+  font-weight: 700;
+  font-size: 0.8125em;
+}
+
+.nav-item {
+  line-height: 1.15em;
+}
+
+.openbazaar-logo {
+  width: 160px;
+}
+
+.fa-bitcoin {
+  color: $bitcoin-color;
+}
+
+.fa-check {
+  color: $check-color;
+}
+
+h3.subtitle {
+  @extend %primary-text;
+  font-weight: 400;
+  font-size: 1.125em;
+  &.subtitle-smaller {
+    font-weight: 700;
+    font-size: 0.9375em;
+  }
+}
+
+h1.title, h2.title {
+  @extend %emphasis-text;
+  font-weight: 400;
+  font-size: 2.5em;
+  &.secondary-title {
+    color: $secondary-emphasis-color;
+  }
+}
+
+hr.title-separator {
+  border: none;
+  height: 2px;
+  background-color: $separator-color;
+  width: 50px;
+}
+
+.button {
+  border-radius: 2px;
+  box-shadow: 0 0 3px 0 rgba(149, 149, 149, 0.5);
+  border: solid 2px #ffffff;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 0 0 2px 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  @include links($button-text-color, $button-text-color, $button-text-color, $button-text-color);
+  &.download {
+    @include links(white, white, white, white);
+    background-image: linear-gradient(to bottom, #54d547, #2bad23);
+  }
+  &.big {
+    width: 202px;
+    height: 46px;
+    font-size: 0.9375em;
+  }
+  &.small {
+    width: 118px;
+    height: 30px;
+    font-size: 0.75em;
+  }
+  &.arrow-animation:after {
+    content: ">";
+    transition: 0.5s;
+    font-size: 1.5em;
+    margin-left: 0;
+    opacity: 0;
+  }
+  &.arrow-animation:hover:after{
+    opacity: 1;
+    margin-left: 13px;
+  }
+}
+
+.pull-upwards {
+  margin-top: -60px;
+}
+
+.mild-text {
+  color: $mild-color;
+}
+
+.button-subtitle {
+  @extend %primary-text;
+  font-size: 0.8125em;
+  margin-top: 2px;
+}
+
+img.big-centered-image {
+  width: 100%;
+  max-width: 850px;
+  box-shadow: 0 0 9px #c7c7c7;
+  margin-top: 45px;
+}
+
+.primary-background {
+  background-color: $section-primary-background;
+  border-top: 1px solid $section-primary-border;
+}
+
+.secondary-background {
+  background-color: $secondary-section-background;
+}
+
+.feature-list {
+  font-size: 0.875em;
+  padding: 0;
+
+}
+
+.feature-list-item {
+  @extend %list-border;
+  height: 52px;
+  background-color: white;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  &.secondary-feature {
+    background-color: $secondary-feature-background;
+    border: none;
+    color: #ffffff;
+  }
+}
+
+.feature-check {
+  margin: 0 20px;
+}
+
+.testimonial {
+  @extend %list-border;
+  color: $mild-color;
+}
+
+.testimonial-image {
+  width: 60px;
+}
+
+.testimonial-name {
+  font-size: 0.75em;
+  font-weight: 700;
+}
+
+.testimonial-text {
+  font-size: 0.8125em;
+}
+
+.emoji {
+  width: 15px;
+}
+
+.faq-title {
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.give-it-a-try {
+  @extend %list-border;
+}
+
+.social-icon {
+  font-size: 1.25em;
+  color: $social-icons-color;
+}
