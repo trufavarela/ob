@@ -54,6 +54,12 @@ $general-link-color: #28a11b;
   border: 1px solid $list-border-color;
 }
 
+//Boostrap Mods
+
+.container.limited {
+  max-width: 800px;
+}
+
 //Styles
 html, body {
   font-family: 'Noto Sans';
@@ -79,6 +85,9 @@ footer {
 p {
   font-size: 0.9375em;
   color: $paragraph-color;
+  &.medium {
+    font-size: 1em;
+  }
 }
 
 a {
@@ -120,13 +129,19 @@ a.nav-link {
   color: $check-color;
 }
 
-h3.subtitle {
+h3 { 
   @extend %primary-text;
   font-weight: 400;
-  font-size: 1.125em;
-  &.subtitle-smaller {
-    font-weight: 700;
-    font-size: 0.9375em;
+  &.subtitle {
+    font-size: 1.125em;
+    &.subtitle-smaller {
+      font-weight: 700;
+      font-size: 0.9375em;
+    }
+  }
+  &.section-sub-title {
+    font-size: 1.4375em;
+    color: $emphasis-color;
   }
 }
 
@@ -204,7 +219,6 @@ img.big-centered-image {
   width: 100%;
   max-width: 850px;
   box-shadow: 0 0 9px #c7c7c7;
-  margin-top: 45px;
 }
 
 .primary-background {

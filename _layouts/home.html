@@ -1,13 +1,14 @@
---- layout: default ---
+--- 
+layout: default 
+---
 <div class="container">
     <section class="row">
         <div class="col-12 text-center">
-            <h3 class="subtitle subtitle-smaller">
-                A FREE ONLINE MARKETPLACE. NO PLATFORM FEES. NO RESTRICTIONS. EARN CRYPTOCURRENCY
-                <i class="fab fa-bitcoin"></i>
-            </h3>
-            <h1 class="title">Buy and Sell Freely</h1>
-            <hr class="title-separator">
+            {% include modules/page-title.html 
+                subTitle="A FREE ONLINE MARKETPLACE. NO PLATFORM FEES. NO RESTRICTIONS. EARN CRYPTOCURRENCY" 
+                title="Buy and Sell Freely"
+                icon="fab fa-bitcoin"
+            %}
             <a href="/mobile-updates" class="button big download d-lg-none">Get It for Desktop</a>
             <a href="/download" class="button big download d-none d-lg-inline-flex">DOWNLOAD</a>
             <div class="button-subtitle">
@@ -21,7 +22,7 @@
                 </span>
                 <span class="d-none d-lg-block">for Windows/Mac/Linux</span>
             </div>
-            {% asset home/openbazaar-2.0-teaser.jpg class="big-centered-image" alt="openbazaar teaser" %}
+            {% asset home/openbazaar-2.0-teaser.jpg class="big-centered-image mt-5" alt="openbazaar teaser" %}
         </div>
     </section>
 </div>
