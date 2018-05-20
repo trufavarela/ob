@@ -17,6 +17,7 @@ $list-border-color: #DEDEDE;
 $button-text-color: #535f65;
 $social-icons-color: #A8B6B5;
 $general-link-color: #28a11b;
+$partner-color: #3f4f59;
 
 //Mixins
 @mixin links ($link, $visit, $hover, $active) {
@@ -288,4 +289,27 @@ img.big-centered-image {
 .social-icon {
   font-size: 1.25em;
   color: $social-icons-color;
+}
+
+.partner {
+  @extend %list-border;
+}
+
+.partner-body, .partner-link {
+  font-size: 0.875em;
+}
+
+.partner-subtitle {
+  font-size: 0.875em;
+  color: $primary-color;
+}
+
+.partner-title {
+  font-size: 0.9375em;
+  font-weight: 700;
+  color: $partner-color;
+}
+
+.partner-image {
+  width: 62px;
 }

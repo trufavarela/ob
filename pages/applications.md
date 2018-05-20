@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: pages/applications
 title: "Our Decentralized Technology Partners"
 permalink: applications/
 ---
-
-This is the applications page
