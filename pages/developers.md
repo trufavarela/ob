@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: pages/developers
 title: "Developers"
 permalink: developers/
 ---
-
-This is the developers page
