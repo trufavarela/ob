@@ -343,3 +343,32 @@ a.alternative-link {
 .content p {
   font-size: 1em;
 }
+
+.top-border-separator {
+  border-top: 1px solid $list-border-color;
+}
+
+.event-group-title {
+  @extend %emphasis-text;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.event-date {
+  font-size: 0.875em;
+  font-weight: 700;
+}
+
+.event-location {
+  font-size: 0.75em;
+  color: $primary-color;
+}
+
+.event-title {
+  font-size: 1em;
+  @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color);
+}
+
+.event-body {
+  font-size: 0.875em;
+}
