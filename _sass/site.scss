@@ -108,6 +108,10 @@ span.bold {
   @extend %emphasis-text;
 }
 
+.list-border {
+  @extend %list-border;
+}
+
 .navbar {
   @extend %primary-text;
   font-size: 1rem;
