@@ -20,6 +20,7 @@ $general-link-color: #28a11b;
 $partner-color: #3f4f59;
 $alternative-link-color: #2ea3f2;
 $mailchimp-sucess-color: #529214;
+$alternative-text-color: #333333;
 
 //Mixins
 @mixin links ($link, $visit, $hover, $active) {
@@ -105,14 +106,6 @@ section {
 
 footer {
   font-size: 1rem;
-}
-
-p {
-  font-size: 0.9375em;
-  color: $paragraph-color;
-  &.medium {
-    font-size: 1em;
-  }
 }
 
 a {
@@ -363,8 +356,17 @@ a.alternative-link {
   font-size: 0.875em;
 }
 
-.content p {
-  font-size: 1em;
+.content {
+  & p {
+    font-size: 1em;
+    color: $paragraph-color;
+    &.small {
+      font-size: 0.9375em;
+    }
+    &.medium {
+      font-size: 1em;
+    }
+  }
 }
 
 .top-border-separator {
@@ -394,4 +396,49 @@ a.alternative-link {
 
 .event-body {
   font-size: 0.875em;
+}
+
+.download-logo {
+  max-height: 60px;
+  max-width: 60px;
+}
+
+.download-title {
+  font-size: 0.9375em;
+  color: $emphasis-color;
+}
+
+.download-link {
+  font-size: 0.9375em;
+}
+
+.collapsable-title {
+  font-size: 1.125em;
+  color: $emphasis-color;
+}
+
+.collapsable-toggler {
+  @include links($primary-color, $primary-color, $primary-color, $primary-color);
+}
+
+.collapse-body {
+  color: $alternative-text-color;
+}
+
+@include media-breakpoint-up(md) {
+  .contributors-list {
+    columns: 2;
+    list-style-position: inside;
+  }
+}
+
+.donate-title {
+  font-size: 1.25em;
+  color: $alternative-text-color
+}
+
+.donate-address {
+  font-size: 1.0625em;
+  word-break: break-word;
+  color: $primary-color;
 }
