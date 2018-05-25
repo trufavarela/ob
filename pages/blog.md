@@ -1,7 +1,5 @@
 ---
-layout: blog
+layout: pages/blog
 title: "The OpenBazaar Blog - OpenBazaar"
 permalink: blog/
 ---
-
-This is blog page

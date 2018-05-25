@@ -21,6 +21,8 @@ $partner-color: #3f4f59;
 $alternative-link-color: #2ea3f2;
 $mailchimp-sucess-color: #529214;
 $alternative-text-color: #333333;
+$extra-color: #3274B7;
+$extra-color-alternative: #A6B5B4;
 
 //Mixins
 @mixin links ($link, $visit, $hover, $active) {
@@ -304,6 +306,9 @@ img.big-centered-image {
 
 .emoji {
   width: 15px;
+  &.medium {
+    width: 23px;
+  }
 }
 
 .faq-title {
@@ -446,3 +451,55 @@ a.alternative-link {
   word-break: break-word;
   color: $primary-color;
 }
+
+.post-heading-image {
+  height: 110px;
+  background-color: #FBFBFB;
+}
+
+.post-openbazaar-logo {
+  width: 85px;
+  height: 85px;
+  margin-top: -50px;
+  z-index: 99;
+}
+
+.post-title {
+  font-size: 2.1875em;
+  color: $emphasis-color;
+  &.alone {
+    font-size: 1.4375em;
+  }
+}
+
+.post-title-extra {
+  color: $extra-color;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.post-title-extra-alternative {
+  color: $extra-color-alternative;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.post-icon-bitcoin {
+  font-size: 1.4375em;
+}
+
+.post-openbazaar-link {
+  font-size: 1.4375em;
+}
+
+//TODO: this is hacky
+.post-emoji {
+  margin-top: -9px;
+}
+
+.post-date {
+  font-size: 0.875em;
+  color: $primary-color;
+  font-weight: 700;
+}
+
