@@ -8,26 +8,50 @@
             <span class="navbar-toggler-icon"></span> Menu
         </button>
         <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item ml-md-2 active">
+                {%- assign current = page.url | downcase | split: '/' -%}
+                <li class="nav-item ml-md-2 {% if current[1] == 'features' %}active {% endif %}">
                     <a class="nav-link" href="{{site.baseurl}}/features/">Features
-                        <span class="sr-only">(current)</span>
+                        {% if current[1] == 'features' %}
+                            <span class="sr-only">(current)</span>
+                        {% endif%}
                     </a>
                 </li>
-                <li class="nav-item ml-md-2">
-                    <a class="nav-link" href="{{site.baseurl}}/applications/">Applications</a>
+                <li class="nav-item ml-md-2 {% if current[1] == 'applications' %}active {% endif %}">
+                    <a class="nav-link" href="{{site.baseurl}}/applications/">
+                        Applications
+                        {% if current[1] == 'applications' %}
+                            <span class="sr-only">(current)</span>
+                        {% endif%}
+                    </a>
                 </li>
                 <li class="nav-item ml-md-2">
                     <a class="nav-link" href="https://api.openbazaar.org/">API</a>
                 </li>
-                <li class="nav-item ml-md-2">
-                    <a class="nav-link" href="{{site.baseurl}}/developers/">Developers</a>
+                <li class="nav-item ml-md-2 {% if current[1] == 'developers' %}active {% endif %}">
+                    <a class="nav-link" href="{{site.baseurl}}/developers/">
+                        Developers
+                        {% if current[1] == 'developers' %}
+                            <span class="sr-only">(current)</span>
+                        {% endif%}
+                    </a>
                 </li>
-                <li class="nav-item ml-md-2">
-                    <a class="nav-link" href="{{site.baseurl}}/support/">Support</a>
+                <li class="nav-item ml-md-2 {% if current[1] == 'support' %}active {% endif %}">
+                    <a class="nav-link" href="{{site.baseurl}}/support/">
+                        Support
+                        {% if current[1] == 'support' %}
+                            <span class="sr-only">(current)</span>
+                        {% endif%}
+                    </a>
                 </li>
-                <li class="nav-item ml-md-2">
-                    <a class="nav-link" href="{{site.baseurl}}/blog/">Blog</a>
+                <li class="nav-item ml-md-2 {% if current[1] contains 'blog' %}active {% endif %}">
+                    <a class="nav-link" href="{{site.baseurl}}/blog/">
+                        Blog
+                        {% if current[1] contains 'blog' %}
+                            <span class="sr-only">(current)</span>
+                        {% endif%}
+                    </a>
                 </li>
                 <li class="nav-item ml-md-2">
                     <a href="{{site.baseurl}}/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
