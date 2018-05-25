@@ -10,9 +10,7 @@ layout: default
 
     {%- if site.posts.size > 0 -%}
         {%- for post in site.posts -%}
-            {% include modules/post.html post=post %}
+            {% include modules/post.html post=post onlyExcerpt=true %}
         {%- endfor -%}
     {%- endif -%}
-
-
 </div>
