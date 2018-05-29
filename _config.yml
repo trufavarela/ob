@@ -26,6 +26,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-assets
 
 defaults:
   - scope:
@@ -47,3 +48,5 @@ permalink: /blog/:title
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude: [vendor]
