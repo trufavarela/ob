@@ -21,7 +21,7 @@ gem "jekyll", "~> 3.8.1"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-admin"
-  gem "jekyll-assets"
+  gem "jekyll-assets", "~> 3.0.11"
   gem "jekyll-seo-tag"
   gem "bootstrap", "~> 4.1"
 end
