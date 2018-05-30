@@ -24,6 +24,7 @@ $mailchimp-sucess-color: #529214;
 $alternative-text-color: #333333;
 $extra-color: #3274B7;
 $extra-color-alternative: #A6B5B4;
+$recent-updates-color: #F2F2F2;
 
 //Mixins
 @mixin links ($link, $visit, $hover, $active) {
@@ -531,4 +532,28 @@ a.alternative-link {
 
 hr.help-us-separator {
   width: 80%;
+}
+
+.recent-updates-wrapper {
+  background-color: $recent-updates-color;
+}
+
+.recent-updates-title {
+  font-size: 0.9375em;
+  font-weight: 700;
+}
+
+.recent-updates-body {
+  font-size: 0.8125em;
+  color: $light-color;
+}
+
+@include media-breakpoint-down(lg) {
+  .card-deck {
+    flex-direction: column;
+  }
+}
+
+.recent-updates-heading {
+  color: $emphasis-color;
 }

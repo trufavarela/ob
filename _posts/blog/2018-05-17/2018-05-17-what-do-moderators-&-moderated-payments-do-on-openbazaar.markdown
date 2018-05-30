@@ -1,8 +1,10 @@
 ---
+title: What Do Moderators <span class='post-title-extra'>& Moderated Payments</span>
+  Do on OpenBazaar?
 layout: post
-title:  "What Do Moderators <span class='post-title-extra'>& Moderated Payments</span> Do on OpenBazaar?"
-date:   2018-05-17 00:49:16 -0300
+date: '2018-05-17 00:49:16 -0300'
 ---
+
 Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.
 
 It’s a big vision. Much of the work we are doing right now is largely untangling some of the technological and psychological knots the infrastructure and assumptions of the last 20 years have made for us all.
@@ -31,13 +33,13 @@ Multisig addresses work like an escrow account between a buyer and a seller by p
 
 ![Moderated payment](moderated.png)
 
-What is a moderator?
+**What is a moderator?**
 
 Again, a decentralized marketplace means that the entire platform is made up only of people connecting to other people with no large organizations sitting in the middle to dictate how anyone uses the platform–nor step in to provide things like dispute resolution. In a decentralized network, the individual users are each responsible for their own experiences which includes contributing positively to the community by building their business and reputation as well as protecting themselves.
 
 Like a buyer or a seller, a moderator is also just another type of user on the OpenBazaar network. Anyone can choose to become one and make their services as a moderator available on the network. And as you may know, since it’s pretty easy to get started on the OpenBazaar network, figuring out which users are more likely to be trustworthy requires a little scrutiny, first.
 
-How do I pick a good moderator?
+**How do I pick a good moderator?**
 
 As a buyer or seller, it’s important to choose a trustworthy moderator to add to your transactions if you are choosing a moderated payment. Here are some tips for [choosing a good moderator](https://www.openbazaar.org/blog/how-to-choose-a-good-moderator-on-openbazaar/) and [OB1](https://ob1.io/), the company leading the development of OpenBazaar, now has a [Verified Moderators program](https://ob1.io/verified-moderators.html) that is integrated into OpenBazaar to help users find someone that OB1 has reviewed who has shown themselves more likely to be trustworthy when helping settle disputes.
 
