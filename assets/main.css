@@ -7188,12 +7188,16 @@ a.alternative-link {
   .post-container a:active {
     text-decoration: none;
     color: #28a11b; }
-
 .post-container img {
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   display: block; }
+.post-container h1, .post-container h2, .post-container h3, .post-container h4, .post-container h5, .post-container h6 {
+  margin: 15px 0;
+  color: #252525; }
+.post-container twitterwidget {
+  margin: 20px auto !important; }
 
 hr.help-us-separator {
   width: 80%; }
