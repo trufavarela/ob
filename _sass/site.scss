@@ -519,15 +519,24 @@ a.alternative-link {
   color: $light-color;
 }
 
-.post-container a {
-  @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color)
-}
-
-.post-container img{
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
+.post-container {
+  a{
+    @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color)
+  }
+  img{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0;
+    color: $emphasis-color;
+  }
+  twitterwidget {
+    //!important to go over twitter's style
+    margin: 20px auto !important;
+  }
 }
 
 hr.help-us-separator {

@@ -27,9 +27,11 @@
                 </div>
             {% else %}
                 <div class="col-12 text-left mb-3">
-                    <h3 class="post-title alone">
-                        {{include.post.title}}
-                    </h3>
+                    <a href="{{ include.post.url | relative_url }}">
+                        <h3 class="post-title alone">
+                            {{include.post.title}}
+                        </h3>
+                    </a>
                 </div>
             {% endunless %}
             <div class="col-12 post-date text-left mb-3">
