@@ -27,6 +27,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-assets
+  - jekyll-postfiles
 
 defaults:
   - scope:

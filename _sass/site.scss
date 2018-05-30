@@ -1,8 +1,9 @@
 //Variables
 $primary-color: #9a9a9a;
-$paragraph-color: #3a3a3a;
+$paragraph-color: #333333;
 $emphasis-color: #252525;
 $mild-color: #5E5E5E;
+$light-color: #535f65;
 $secondary-emphasis-color: #ffffff;
 $bitcoin-color: #f8940d;
 $check-color: #8ED86C;
@@ -116,6 +117,16 @@ footer {
 
 a {
   @include links(inherit, inherit, inherit, inherit);
+}
+
+blockquote {
+  border-left: 5px solid;
+  border-color: #2ea3f2;
+  padding-left: 20px;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .general-link {
@@ -503,3 +514,21 @@ a.alternative-link {
   font-weight: 700;
 }
 
+.post-container ul {
+  color: $light-color;
+}
+
+.post-container a {
+  @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color)
+}
+
+.post-container img{
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+hr.help-us-separator {
+  width: 80%;
+}
