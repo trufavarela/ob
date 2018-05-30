@@ -6825,6 +6825,14 @@ a {
     text-decoration: none;
     color: inherit; }
 
+blockquote {
+  border-left: 5px solid;
+  border-color: #2ea3f2;
+  padding-left: 20px; }
+
+strong {
+  font-weight: 700; }
+
 .general-link {
   text-decoration: none;
   color: #28a11b; }
@@ -7043,7 +7051,7 @@ a.alternative-link {
 
 .content p {
   font-size: 1em;
-  color: #3a3a3a; }
+  color: #333333; }
   .content p.small {
     font-size: 0.9375em; }
   .content p.medium {
@@ -7164,3 +7172,28 @@ a.alternative-link {
   font-size: 0.875em;
   color: #9a9a9a;
   font-weight: 700; }
+
+.post-container ul {
+  color: #535f65; }
+
+.post-container a {
+  text-decoration: none;
+  color: #28a11b; }
+  .post-container a:visited {
+    text-decoration: none;
+    color: #28a11b; }
+  .post-container a:hover {
+    text-decoration: none;
+    color: #28a11b; }
+  .post-container a:active {
+    text-decoration: none;
+    color: #28a11b; }
+
+.post-container img {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block; }
+
+hr.help-us-separator {
+  width: 80%; }
