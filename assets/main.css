@@ -7197,3 +7197,20 @@ a.alternative-link {
 
 hr.help-us-separator {
   width: 80%; }
+
+.recent-updates-wrapper {
+  background-color: #F2F2F2; }
+
+.recent-updates-title {
+  font-size: 0.9375em;
+  font-weight: 700; }
+
+.recent-updates-body {
+  font-size: 0.8125em;
+  color: #535f65; }
+
+@media (max-width: 1199.98px) {
+  .card-deck {
+    flex-direction: column; } }
+.recent-updates-heading {
+  color: #252525; }
