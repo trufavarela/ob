@@ -6946,6 +6946,9 @@ hr.title-separator {
     margin-left: 13px; }
 
 .pull-upwards {
+  margin-top: -40px; }
+
+.pull-upwards-extra {
   margin-top: -60px; }
 
 .mild-text {
