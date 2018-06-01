@@ -6798,7 +6798,8 @@ a.nav-link {
 
 html, body {
   font-family: 'Noto Sans';
-  font-size: 16px; }
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased; }
 
 header {
   padding: 20px 0; }
