@@ -118,7 +118,7 @@ footer {
 }
 
 a {
-  @include links(inherit, inherit, inherit, inherit);
+  @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color);
 }
 
 blockquote {
@@ -570,4 +570,15 @@ hr.help-us-separator {
 
 .recent-updates-heading {
   color: $emphasis-color;
+}
+
+.token-content {
+  box-shadow: 0 0 10px 0 rgba(134,134,134,0.50);
+  background-color: white;
+}
+
+.dotted-bg {
+  background-image: url("img/token/dot-grid.png");
+  background-repeat: repeat-x;
+  background-position: center; 
 }
