@@ -6815,16 +6815,16 @@ footer {
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: #28a11b; }
   a:visited {
     text-decoration: none;
-    color: inherit; }
+    color: #28a11b; }
   a:hover {
     text-decoration: none;
-    color: inherit; }
+    color: #28a11b; }
   a:active {
     text-decoration: none;
-    color: inherit; }
+    color: #28a11b; }
 
 blockquote {
   border-left: 5px solid;
@@ -7222,3 +7222,12 @@ hr.help-us-separator {
     flex-direction: column; } }
 .recent-updates-heading {
   color: #252525; }
+
+.token-content {
+  box-shadow: 0 0 10px 0 rgba(134, 134, 134, 0.5);
+  background-color: white; }
+
+.dotted-bg {
+  background-image: url("img/token/dot-grid.png");
+  background-repeat: repeat-x;
+  background-position: center; }
