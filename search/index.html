@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Search | OpenBazaar</title>
+<meta name="generator" content="Jekyll v3.8.2" />
+<meta property="og:title" content="Search" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://127.0.0.1:8080/openbazaar/search/" />
+<meta property="og:url" content="http://127.0.0.1:8080/openbazaar/search/" />
+<meta property="og:site_name" content="OpenBazaar" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://127.0.0.1:8080/openbazaar/search/","headline":"Search","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/openbazaar/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/openbazaar/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://127.0.0.1:8080/openbazaar/feed.xml" title="OpenBazaar" /></head>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/openbazaar/">
+            <img class="openbazaar-logo" alt="openbazaar logo" src="/openbazaar/assets/home/openbazaar-logo-316bbba492da4a2a44a7ad012f1054fdf0c47c1068d5a949f86bab5ab23a5980.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
+            <ul class="navbar-nav ml-auto"><li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/features/">Features
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/applications/">
+                        Applications
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a class="nav-link" href="https://api.openbazaar.org/" target="_blank">API</a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/developers/">
+                        Developers
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/support/">
+                        Support
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/blog/">
+                        Blog
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a href="/openbazaar/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
+                    <a href="/openbazaar/download/" class="button small download d-none d-lg-inline-flex">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper content">
+        <div class="container limited">
+    <section class="row">
+        <div class="col-12 text-left">
+            <div class="text-center">
+    <h3 class="subtitle subtitle-smaller">
+         
+    </h3>
+    <h1 class="title">Search OpenBazaar</h1>
+    <hr class="title-separator">
+</div>
+        </div>
+        <div class="col-12">
+            <form action="/openbazaar/search/" method="get">
+    <input type="text" id="search-box" name="query" class="search-box big p-3">
+    <input class="button big mt-3" type="submit" value="Search">
+</form>
+        </div>
+        <div class="col-12 mt-4">
+            <ul id="search-results" class="list-unstyled"></ul>
+        </div>
+</div>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+
+    window.store = {
+         
+             
+                "404": { 
+                    "title": "Page not found", 
+                    "content": "", 
+                    "url": "/404" 
+                }, 
+             
+       
+             
+                "about": { 
+                    "title": "About", 
+                    "content": "In April of 2014 at a Toronto hackathon a project called “Dark Market” was created. Amir Taaki lead a small team of developers to build a proof of concept for a decentralized marketplace. The software was completely peer to peer with no central organization controlling it. The Dark Market entry won the hackathon, but Amir and his team decided not to continue work on the project.Brian Hoffman talked to Amir about Dark Market and learned they weren’t going to continue development. He liked the idea of a decentralized marketplace, but didn’t like the sole focus on darknet markets, so he forked the project and renamed it OpenBazaar.The idea of a permissionless marketplace was powerful, and people around the world joined Brian to help build this open source software. In September this team released the first test version of the software. Over the next few months the team continued improving the software and got an encouraging response from the Bitcoin community. They visited FOSSDEM (Free Open Source Software Developers European Meeting) in Brussels early in 2015, and presented the project to an enthusiastic crowd. Brian and a few core members of the team decided that it was time to turn the project from a part-time, volunteer effort into a serious, well-funded campaign to bring free trade to the world.They founded a company, OB1, with a $1 million venture capital investment from Union Square Ventures and Andreessen Horowitz, and immediately began hiring developers to build a better version of the software from the ground up.In April 2016 the first full release of the software was published, and tens of thousands of people around the world downloaded OpenBazaar and began buying and selling with each other directly, using Bitcoin.OB1 received a second round of investment for $3 million in the fall of 2016, further expanding their development team and began work on the second major version of the software, improving on the limitations of the first version.", 
+                    "url": "/about/" 
+                }, 
+             
+       
+             
+                "applications": { 
+                    "title": "Our Decentralized Technology Partners", 
+                    "content": "", 
+                    "url": "/applications/" 
+                }, 
+             
+       
+             
+                "bitcoin": { 
+                    "title": "How To Buy Bitcoin Safely With Your Credit Card", 
+                    "content": "Bitcoin is the leading cryptocurrency, and is more private, more secure, and less expensive than existing payment methods. Before you purchase bitcoins you need to obtain a Bitcoin wallet. This is where you store your bitcoins. There are many wallets to choose from, and this guide may help you.Your ability to purchase bitcoins will depend on where you live. In the United States, Coinbase and LocalBitcoins are popular options. You can find options for your country at this site.", 
+                    "url": "/bitcoin/" 
+                }, 
+             
+       
+             
+                "blog": { 
+                    "title": "The OpenBazaar Blog - OpenBazaar", 
+                    "content": "", 
+                    "url": "/blog/" 
+                }, 
+             
+       
+             
+                "contributors": { 
+                    "title": "Contributors", 
+                    "content": "", 
+                    "url": "/contributors/" 
+                }, 
+             
+       
+             
+                "developers": { 
+                    "title": "Developers", 
+                    "content": "", 
+                    "url": "/developers/" 
+                }, 
+             
+       
+             
+                "donate": { 
+                    "title": "Donate", 
+                    "content": "OpenBazaar is an open source project using the MIT license. We accept donations to help pay for expenses like conference attendance, server infrastructure, bug bounties, and merchandise for the OpenBazaar store (all proceeds go back into the project fund).The primary developers of OpenBazaar work for the company OB1, which has secured venture capital funding to develop the software as well as offer services to users on the network. As such, the project currently doesn’t need community funding to survive. We appreciate other contributions more highly, such as using the software and giving us feedback on what works and what doesn’t work. We also love pull requests and code review from other developers.", 
+                    "url": "/donate/" 
+                }, 
+             
+       
+             
+                "download": { 
+                    "title": "Get Your Store Up in Two Minutes - Download OpenBazaar Now", 
+                    "content": "", 
+                    "url": "/download/" 
+                }, 
+             
+       
+             
+                "events": { 
+                    "title": "Events", 
+                    "content": "", 
+                    "url": "/events/" 
+                }, 
+             
+       
+             
+                "features": { 
+                    "title": "Sites Like eBay or Etsy but Decentralized - Our Features", 
+                    "content": "", 
+                    "url": "/features/" 
+                }, 
+             
+       
+             
+                "": { 
+                    "title": "OpenBazaar: Online Marketplace | Peer-to-Peer Ecommerce", 
+                    "content": "", 
+                    "url": "/" 
+                }, 
+             
+       
+             
+                "": { 
+                    "title": "", 
+                    "content": "", 
+                    "url": "/" 
+                }, 
+             
+       
+             
+       
+             
+                "mobile-updates": { 
+                    "title": "Mobile Updates", 
+                    "content": "", 
+                    "url": "/mobile-updates/" 
+                }, 
+             
+       
+             
+                "newsletter": { 
+                    "title": "Newsletter", 
+                    "content": "", 
+                    "url": "/newsletter/" 
+                }, 
+             
+       
+             
+                "privacy": { 
+                    "title": "Privacy", 
+                    "content": "This privacy policy discloses the privacy practices for OpenBazaar.org. This privacy policy applies solely to information collected by this web site. It will notify you of the following:  What personally identifiable information is collected from you through the web site, how it is used and with whom it may be shared.  What choices are available to you regarding the use of your data.  The security procedures in place to protect the misuse of your information.  How you can correct any inaccuracies in the information.Information Collection, Use, and SharingWe are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. signing up for our newsletter.Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.CookiesWe use cookies on this site. A cookie is a piece of data stored on a site visitor’s hard drive to help us improve your access to our site and identify repeat visitors. Cookies can also enable us to track and target the interests of our users to enhance the experience on our site. Usage of a cookie is in no way linked to any personally identifiable information on our site.SharingWe may share aggregated demographic information with our partners and advertisers. This is not linked to any personal information that can identify any individual person.And/or:We partner with another party to provide specific services. When the user signs up for these services, we will share names, or other contact information that is necessary for the third party to provide these services. These parties are not allowed to use personally identifiable information except for the purpose of providing these services.LinksThis web site contains links to other sites. Please be aware that we are not responsible for the content or privacy practices of such other sites. We encourage our users to be aware when they leave our site and to read the privacy statements of any other site that collects personally identifiable information.Surveys &amp; ContestsFrom time to time our site requests information via surveys or contests. Participation in these surveys or contests is completely voluntary and you may choose whether or not to participate and therefore disclose this information. Information requested may include contact information (such as name and email address), and demographic information (such as zip code, age). Contact information will be used to notify the winners and award prizes. Survey information will be used for purposes of monitoring or improving the use and satisfaction of this site.Your Access to and Control Over InformationYou may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address given on our website:  See what data we have about you, if any.  Change/correct any data we have about you.  Have us delete any data we have about you.  Express any concern you have about our use of your data.SecurityWe take precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline.Wherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a closed lock icon at the bottom of your web browser, or looking for “https” at the beginning of the address of the web page.While we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers/servers in which we store personally identifiable information are kept in a secure environment.UpdatesOur Privacy Policy may change from time to time and all updates will be posted on this page.If you feel that we are not abiding by this privacy policy, you should contact us immediately via email.", 
+                    "url": "/privacy/" 
+                }, 
+             
+       
+             
+                "search": { 
+                    "title": "Search", 
+                    "content": "", 
+                    "url": "/search/" 
+                }, 
+             
+       
+             
+                "support": { 
+                    "title": "Get Support for OpenBazaar, an Online Marketplace Alternative", 
+                    "content": "This is the support page", 
+                    "url": "/support/" 
+                }, 
+             
+       
+             
+                "token": { 
+                    "title": "OpenBazaar Token", 
+                    "content": "**Token Details**—Since its release, OpenBazaar has become the largest decentralized marketplace online, offering users unparalleled privacy and freedom over their own trade. Our team is continuing the development of the platform by introducing the **OpenBazaar Token**. We believe this token can provide incentives for **users, developers** and **curators** on the OpenBazaar platform. There are many challenges a fully decentralized marketplace faces. One of those challenges is product discovery. Vendors on the platform have requested the ability to promote their listings in order to drive more sales, but not be reliant on a third party search provider. The OpenBazaar Token will allow for premium placement of listings in a fully decentralized manner. Premium placement for listings is the **first token utility** that will be implemented into OpenBazaar. OpenBazaar will continue to expand the functionality and utility of the token and associated smart contracts into new and exciting areas. As always, **there will never be platform fees** required to buy or sell on OpenBazaar. The token is never required to use the platform. Payments will still be settled in a variety of cryptocurrencies. Read more about the plans for the upcoming OpenBazaar token release here: OpenBazaar Tokens and Smart Contracts Stay up to date with token developments in the OpenBazaar communities on [Slack](https://docs.google.com/forms/d/e/1FAIpQLSdEXqnREdncZYEXYSaE_wK41UV6JkBqNxqY5X-6J3oFNlZ72Q/viewform), [Telegram](http://t.me/openbazaargroup) and [Discord](https://discord.gg/0aeeKzHlQ0EfTeuj) If you plan on purchasing advertising for your listings on OpenBazaar, please join us in 2018 by participating in the token offering. **Please note: ALL future token-related announcements will be digitally signed using the PGP key from [here](https://keybase.io/openbazaar)**", 
+                    "url": "/token/" 
+                }, 
+             
+       
+             
+       
+       
+            "blog-what-do-moderators-moderated-payments-do-on-openbazaar": { 
+                "title": "What Do Moderators & Moderated Payments Do on OpenBazaar?", 
+                "content": "Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.It’s a big vision. Much of the work we are doing right now is largely untangling some of the technological and psychological knots the infrastructure and assumptions of the last 20 years have made for us all.One of the first and biggest knots we knew had to be untangled for a decentralized marketplace like OpenBazaar to be feasible was a pretty basic service other marketplaces and storefronts have historically provided: dispute resolution.  Think about it: in a decentralized network that’s made only of the individual people that participate in it, and transactions exist only between the people engaged in them, what happens when something goes wrong with an order?Payments in OpenBazaarFor a bit of background, OpenBazaar currently uses 3 different cryptocurrency payment types:  Direct  Offline  ModeratedGenerally, if a buyer trusts a seller they can just send their coins directly to them in a direct payment. If the seller is offline at the time of payment, that creates a slightly different payment type where they just have to claim their coins when they return to their store. (You can read more details about each of these payment types here.)Then there are moderated payments, which is what a buyer can use to send coins to a vendor they do not yet know or trust or to provide an extra layer of security for higher cost transactions.What is a moderated payment?Moderated payments are an important part of the OpenBazaar checkout experience and something that we believe is a valuable application of a unique feature that Bitcoin and related cryptocurrencies have: multisignature (multisig) addresses.Multisig addresses work like an escrow account between a buyer and a seller by pulling an objective third party into the checkout process, called a moderator. These addresses require 2 of these 3 parties to agree in order to release the coins at the end of a transaction. Typically transactions just go smoothly between buyers and sellers and a moderator’s help isn’t ever needed, but it sure is nice to know they are there just in case! If something does go wrong, moderators will help figure out who gets the payment coins when the buyer or seller opens a dispute.What is a moderator?Again, a decentralized marketplace means that the entire platform is made up only of people connecting to other people with no large organizations sitting in the middle to dictate how anyone uses the platform–nor step in to provide things like dispute resolution. In a decentralized network, the individual users are each responsible for their own experiences which includes contributing positively to the community by building their business and reputation as well as protecting themselves.Like a buyer or a seller, a moderator is also just another type of user on the OpenBazaar network. Anyone can choose to become one and make their services as a moderator available on the network. And as you may know, since it’s pretty easy to get started on the OpenBazaar network, figuring out which users are more likely to be trustworthy requires a little scrutiny, first.How do I pick a good moderator?As a buyer or seller, it’s important to choose a trustworthy moderator to add to your transactions if you are choosing a moderated payment. Here are some tips for choosing a good moderator and OB1, the company leading the development of OpenBazaar, now has a Verified Moderators program that is integrated into OpenBazaar to help users find someone that OB1 has reviewed who has shown themselves more likely to be trustworthy when helping settle disputes.    Also, it’s always good to check out these scam prevention tips to help you stay safe and smart when buying and selling on OpenBazaar.Choose your own adventureThere are a lot of choices involved in using OpenBazaar, and that’s on purpose. We know it is different from what you may be used to but we are building a marketplace where each user gets to be in control of their own experience with more features and opportunities being built all the time. To see some of the other things the OB1 team is working on to make OpenBazaar the most accessible and expandable ecommerce marketplace on the planet, check out the 2018 Roadmap and make sure to sign up for the email newsletter to get the latest updates!", 
+                "url": "/blog/what-do-moderators-&amp;-moderated-payments-do-on-openbazaar" 
+            } 
+            , 
+       
+            "blog-cryptocurrency-trading-now-available-on-openbazaar": { 
+                "title": "Cryptocurrency Trading Now Available on OpenBazaar", 
+                "content": "OpenBazaar version 2.2.0 was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.The biggest new feature is the ability to ** buy and sell cryptocurrencies**.Cryptocurrency Trading on OpenBazaar    Vendors are now able to use a special new listing type to sell cryptocurrencies on OpenBazaar. They can choose from 44 different cryptocurrencies right now and more will be added over time. Payment must be settled in whichever coin they have chosen for their OpenBazaar store, either Bitcoin, Bitcoin Cash, or Zcash.Because OpenBazaar is completely peer-to-peer, this is not an exchange. This new feature doesn’t include an order book with the ability to choose a target price for buying or selling. This new feature only allows people to trade cryptocurrencies directly with each other at market prices. It benefits from OpenBazaar’s main advantages; users trading cryptocurrencies on the platform won’t need to pay any fees and they aren’t forced to reveal any identifying information.We’ve released this new feature with the goal of listening to the community about how they believe cryptocurrency trading on OpenBazaar can be improved. We plan to rapidly iterate as we receive feedback from users.Please join us on Slack and Twitter to give us your thoughts on this new feature!Opt-in AnalyticsBecause OpenBazaar has been built with privacy in mind, the development team isn’t able to gain much information about how people use the software. This is good for privacy, but can sometimes hinder development. In order to gain more insight on how OpenBazaar is being used – and how to improve it – we’re introducing an opt-in analytics package. Users who choose to opt in will share non-identifying data with the development team. The list of data being shared is displayed when opening the new release for the first time. Users can start or stop sharing data at any time in their Settings.Release NotesThis is a major release, which adds buying and selling cryptocurrencies, opt in analytics, and many optimizations and bug fixes.New Features– The ability to buy and sell cryptocurrencies was added. The currencies can be sold at market rates. This feature is experimental, and is expected to be rapidly iterated on as we recieve feedback from users. #1308– An opt-in analytics package was added. Users are able to choose to share non-identifying data with the development team. This will facilitate identifying bugs and improving the app. Users can start or stop sharing data at any time. #1277Improvements  Norweigan, Polish, and Ukranian translations reached the 80% translated requirement, and were added as options for the client. #1324  When viewing your sales, unfunded orders will now be hidden by default, since you cannot take action on those orders, and they clutter up the list of orders. You can still chose to view those orders. #1310  Listing card image loads will now cancel when the image card is no longer on the screen. This primarily improves the experience when changing pages in the search results or navigating away from a page of search results that hasn’t finished loading. #1309  Verified moderators are now lazy-loaded. This will speed up startup, and notify the user if the list of verified moderators changes while they are looking at information that will be affected by that change. #1298  Verified moderators are loaded from a Tor endpoint if the user is in Tor mode. #1284Bug Fixes  Blockdozer changed their URL for viewing BCH transactions, the URL used when viewing details of transactions has been updated. #1320  An issue where the no valid moderators error would show on an error at the same time as the no verified moderators message, and with the wrong formatting, was corrected. #1307  A problem where invalid mods would never stop loading was fixed. #1306  Error messages meant for only the purchase flow no longer appear in the settings/store tab. #1306  Some layout issues with moderator cards were corrected. #1300  In the settings/store tab, if a moderator assigned to your store has become invalid, now the only option is to de-select them. #1300  An unused memo parameter was removed from the purchase call. #1314  A minor layout issue was corrected in the transactions list. #1285  The bug where pages stats are changed to zero in the page tabs on the user page when the page settings are updated was fixed. #1287  A layout issue with verified moderators was fixed. #1270  Store pages will now open if one of the listings in them has an unrecognized currency value. #1269InternationalizationWe are actively translating the text in the OpenBazaar reference client. If you are interested in volunteering as a translator, you can sign up here.Special ThanksA special thank you goes out to the many volunteers that provide translations, and to our testers that discovered important issues.", 
+                "url": "/blog/cryptocurrency-trading-now-available-on-openbazaar" 
+            } 
+            , 
+       
+            "blog-openbazaar-2018-roadmap-community-call-agenda": { 
+                "title": "OpenBazaar 2018 Roadmap Community Call Agenda", 
+                "content": "We are looking forward to seeing you this Thursday, April 26th at 11am EST to discuss the 2018 development roadmap and determine some priorities together as a community! Since we are expecting quite a few attendees, we want to share a brief agenda so everyone knows what to expect and we can keep things sane(ish!)Agenda for The OpenBazaar 2018 Roadmap Community Call  Introductions – Meet the OB1 development team  Recent &amp; Upcoming Releases  2018 Roadmap Overview – Check this out ahead of time so that you know what is up for discussion!  Community Q&amp;A  If you have not yet gotten on the call list please do so here as we will be sending the call link a few minutes ahead of time.See you on Thursday!", 
+                "url": "/blog/openbazaar-2018-roadmap-community-call-agenda" 
+            } 
+            , 
+       
+            "blog-why-do-i-have-to-download-openbazaar": { 
+                "title": "Why Do I Have to Download OpenBazaar?", 
+                "content": "To use OpenBazaar right now you need to download and install a program on your computer. This is quite different from other marketplaces, which you access by visiting a website. Why the difference?OpenBazaar is a fundamentally different way to do ecommerce. It’s built to let you take control of your own store &amp; profile and connect with other users without any middlemen involved.What middlemen are involved in traditional ecommerce?When shopping or selling online, users encounters layers of middlemen that provide some convenience, but also force fees on users and tightly control all transactions.  The first layer is the money itself, government currencies such as the Dollar, Pound or Euro. They are produced by individual governments around the world and require exchanges to be translated into another global currency.  The second is banks and credit card companies. These institutions are designed to hold and move these currencies and are also regulated by governments.  The third is payment processors. These are companies like Stripe or PayPal that link your bank account or credit card to others so that you can make payments and send money more easily.  Then finally are marketplaces like Amazon, Ebay or Alibaba. These companies own websites and apps where users can shop. This means they own not only the servers on which all buyer and seller profile information and content lives but also the experience that you are having and all of the data any user generates.To break free of all of these middlemen you have to break free of a lot of infrastructure.And that simply wasn’t possible 10 years ago.The real breakthrough came with development of cryptocurrencies like Bitcoin. These cryptographic coins open up the first two layers of money itself to allow people to exchange value in a currency that isn’t generated by any government and can easily be used internationally.With OpenBazaar, we wanted to harness this power of Bitcoin and take it a step further, removing layers 3 and 4. Instead of asking people to connect to each other through a website or network that we owned, we wanted to just let users connect directly to each other, exactly how they do with Bitcoin and other cryptocurrencies, but with a nice interface that felt like the payment processors and marketplaces they were used to.Getting rid of servers in general isn’t an option as the internet still requires machines that can store and serve information to users all around the world–but they don’t necessarily need to be collected in specific locations, or, more importantly, centrally owned.Servers can be broken down and divided up between the users that participate in a certain network.The OpenBazaar download bundleOpenBazaar is two programs in one:  OpenBazaar server – The server is the back end application which allows OpenBazaar to function. Each user runs a server to connect them to the network and allow them to participate. It can both store and share their own public and private data, and help store and share the public data of others. This is the primary reason you have to download OpenBazaar right now.  OpenBazaar client – The client is the front end application and allows the user to communicate and control the server, similar to a remote control. The client is the visual interface; it’s what you’re looking at when you run OpenBazaar.By default, the OpenBazaar packages and installers will install both server and client locally on your machine. However, you can choose to run just the server elsewhere, such as on a Raspberry Pi or use a virtual private server (VPS).This creates a distributed peer-to-peer network with the power of big, centralized servers but that isn’t controlled by any one company or organization – just a community of people who want to engage in trade directly with each other.Web 3.0 in actionThe next evolution of the web is underway now and this sort of restructuring is what that’s all about. The coming years are about building the technology that eliminates the necessity of existing infrastructures to give a high level of control back to users.People who are doing this work believe in a world where people are able to run their own internet experience for themselves, with a level of privacy and control that was not possible, before.Downloading OpenBazaar is a choice to discover a new way to buy and sell online. It represents a willingness to explore and understand more about how the internet will be structured in the coming years.This download represents choice and ownership and a step out from under the heavy hand of centralized power structures.Do you want to help build this future where individuals are in control? Check out OpenBazaar today.", 
+                "url": "/blog/why-do-i-have-to-download-openbazaar" 
+            } 
+            , 
+       
+            "blog-openbazaar-2018-roadmap": { 
+                "title": "OpenBazaar 2018 Roadmap", 
+                "content": "It’s been a while since we updated the roadmap for OpenBazaar development. The previous roadmap essentially stated: “Get 2.0 finished!” We did that last November, and since then we’ve also released one major update (2.1.1) which allowed people to use Bitcoin Cash and Zcash in addition to Bitcoin. Several smaller but important features have been added as well, including verified moderators, to help stop scammers.The company driving development – OB1 – also raised a series A round of funding. Now that the development team has released 2.0 and has resources to continue building, we’re putting out a roadmap to explain where we think OpenBazaar should go next.As always, this is open source and OpenBazaar is nothing more than a collection of people around the world running this free software. We want input from the community on what you think of this roadmap, and we want your help in achieving these goals as well. More details about how you can give feedback or contribute are at the end of the post.    New PlatformsOpenBazaar has always been a desktop-only experience. Building distributed applications is very difficult to do in a browser and on mobile devices, and it was important to get the protocol right first before we even began working on alternative clients.Our mission has always been to make trade free. No cost to engage in trade, and no restrictions on trade either. To do this we try to make the barriers to entry of the application as low as possible. On desktop, the installation process and store setup are quite simple – but not everyone has a modern computer, and not everyone is able to download, install, and run whatever applications they want.Being able to run OpenBazaar in a browser and on a smartphone is essential to further reduce the barriers to entry into the network. These new clients are going to be the primary areas we focus on over the next year.MobileOur mobile journey initially positioned OB1 offering a hosted node service that the iOS and Android clients would connect to. While convenient for the user, it would require OB1 controlling infrastructure and acting as a gatekeeper for the decentralised marketplace for mobile users.Instead, we approached the Go community in Q3 2017 for assistance in modifying the OpenBazaar server (written in Go) for mobile devices. This strategy was successful, and after some optimisation we are proud to report that the OpenBazaar mobile applications, which OB1 will release, will run a full OpenBazaar node on the device. The significance of this achievement cannot be understated as this enables billions of mobile devices to access a decentralised marketplace as a full node on the OpenBazaar network.At the time we achieved this milestone and were positioned to release the app, Bitcoin transaction fees escalated to the point where trade was only viable for expensive transactions. We decided we needed to integrate other cryptocurrencies, as we further explain in this video.While the OpenBazaar server now supports other cryptocurrencies such as Zcash and Bitcoin Cash, it does so in an exclusive manner, and a user cannot buy or sell in multiple currencies at the same time. To support this, the OpenBazaar wallet required a significant refactor that is still ongoing.The end result will be an iOS and Android mobile app that will run a full OpenBazaar node that can transact in Bitcoin, Litecoin, Bitcoin Cash, and Zcash as a start. This will truly empower people all of the world to start earning and using cryptocurrencies in a global decentralised marketplace with zero fees.Looking for a lightly used Aventador on @openbazaar with this Android phone... pic.twitter.com/c7pk5WSGBZ&mdash; Brian Hoffman (@brianchoffman) March 17, 2018WebRunning OpenBazaar in a browser is more difficult. The network is built on top of IPFS. Running an OpenBazaar node is essentially running a custom IPFS node. There is an effort underway to have an IPFS node run in browser called IPFS-JS, and we believe this will allow us to build a web-based OpenBazaar version. Building the web-based version is a significant task, and we believe it will take us into early 2019.We expect the payoff to be worth the wait. The initial web-based client will allow buyers to make purchases without needing to download anything. Users can share links to stores or listings that will be viewable from the web. These improvements won’t compromise the completely distributed architecture of the network; all the necessary code is run client-side in the browser.Developer supportSoftware development can be messy, especially in an innovative space where things change quickly. We made our own 1.0 version of OpenBazaar obsolete with 2.0 in only a year and a half. In order to get 2.0 out the door we didn’t focus much effort on supporting external developers, and as a result the project isn’t nearly as approachable to new contributors as we’d like. To fix this we’re now taking a few steps to make the project more friendly to external contributors:  Improving documentation for existing repositories  Organizing / supporting software other than the main client / server repositories  Formalizing the protocol separately from the reference implementation  Offering bounties for bugs or new features / apps on top of OpenBazaarTokenContent discovery in a completely decentralized network can be difficult. Custom curation is a new feature we’ll be adding (see “Improved Content Discovery” below), but it’s not immediately clear why a user would take the time to offer curation services. It’s also unclear how a vendor advertises their listings in a network that nobody controls.In order to create incentives for curators, and to give vendors the ability to advertise, we’re introducing the OpenBazaar Token.The token whitepaper draft is complete and will be published in the near future.You can read more about the token and sign up to receive updates as well.New featuresNew clients and the new token infrastructure are huge improvements for the ecosystem and will take a substantial part of development effort, but that’s not all we’re going to be doing this year. There are plenty of new features we want to add into the software as well.Cryptocurrency listingsOpenBazaar has always had three listing types available: physical goods, digital goods, and services. We’re now adding a fourth: cryptocurrency. Users will now be able to buy and sell cryptocurrencies directly with each other on the platform. No fees, no need to register with any service, and no threat of an exchange getting hacked.You can walk through a prototype of this feature here. We’re building this right now and it should be included in the next OpenBazaar release.RequestsCryptocurrencies aren’t the only new listing type we’ll be introducing. We’ll also be adding requests, allowing buyers to make offers to purchase something if someone provides it to them.The marketplace is currently one-sided with only vendors telling buyers what they have available. But with the requests feature it now becomes two-sided. Buyers tell vendors what they want, and then vendors can compete with each other to fulfil the open orders.This feature will change OpenBazaar from a platform where content is solely dictated by vendors to one where vendors and buyers both have the ability to change what is being offered. This listing type won’t be limited to physical goods either; users will be able to request digital goods, services, and cryptocurrencies as well.Automated digital downloadsDigital goods are a great use case for cryptocurrency, but the current method of fulfilling orders placed for digital goods requires manual effort from the vendor. This new feature will automate the process so that it’s as simple as “send money, get file.”Improved Content DiscoveryHaving search providers directly in the application has been a huge improvement for product discovery over the old 1.0 version, but users still don’t have a good way to browse listings, or to curate groups of listings themselves.We’ll be adding a feature that allows buyers to browse groups of listings that have been curated by other users on the network. These curated lists can be anything – goods sold only in a specific location, a niche style, goods based on popularity, the curator will be able to choose content lists based on any criteria they choose.Browsing experience in OpenBazaar. Designs may change.Better Reputation &amp; IdentityCurrently buyers in OpenBazaar can leave reviews on transactions and those reviews are aggregated to show the vendor’s reputation. This is the only reputation metric we have in place, and we want to expand this moving forward. Decentralized reputation and identity is an incredibly difficult problem to solve, and there are no clear solutions that exist, but we know of a few ways to improve.One improvement is the addition of handles. This was a feature in the 1.0 version that hasn’t made it into 2.0 yet, the ability to tie your OpenBazaar ID (which is currently a random string of characters) into a human-readable name. For example, the store run by the development team has the following ID:  ob://QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7/storeThis isn’t possible to memorize, but with the handles feature users could just type in a name such as “@OpenBazaar” to visit the store. It can also use DNS to resolve names.Handles may also allow users to tie into existing identity systems, such as Blockstack. If the user has tied other accounts into the identity system, then this acts as a way to bootstrap reputation and increase trust among users.Development of better reputation / identity hasn’t begun yet, so we welcome ideas and assistance in building this feature.OpenBazaar FoundationOpenBazaar has always been – and will always be – open source and free to use. The company OB1 has been the primary development team for most of OpenBazaar’s history, and have chosen not to directly monetize the protocol, but will be offering services to users on the network instead.The ensure the protocol will be maintained in the long-run, and to allow community members to play a larger role in guiding the development and maintenance of the protocol, network, and reference implementations, we’re considering the creation of an OpenBazaar Foundation.The specific mission of the organization is being decided now, but the overall goal would be to ensure that there always exists a place online where people can engage in free, private, permissionless trade.This new nonprofit would lead a transition away from OB1 being the primary maintainers of the protocol towards a community model of management.The foundation creation process has only just begun, so if you have input or wish to help in the process, please let us know.What do you think?Love our roadmap? Think we’ve gotten something wrong, or missed an opportunity? We want to hear from you.We hosted a community all on April 26, 2018 and you can check out the recording of that below if you’d like, but we would REALLY love for you to join us on Slack to continue the conversation and give us your thoughts as we continue to set priorities together!    ", 
+                "url": "/blog/openbazaar-2018-roadmap" 
+            } 
+            , 
+       
+            "blog-cryptocurrency-listing-type-on-openbazaar-what-do-you-think": { 
+                "title": "Cryptocurrency Listing Type on OpenBazaar – What Do You Think?", 
+                "content": "Cryptocurrency listing types on OpenBazaar would allow users to buy and sell coins directly with one another. What do you think? Could it work?Click through below to check out the short walkthrough demo of how you could post cryptocurrencies for sale. Please leave comments there or on the social media thread where you are seeing this post and tell us what you think!View PrototypeStill need to download OpenBazaar?Get it now!", 
+                "url": "/blog/cryptocurrency-listing-type-on-openbazaar-what-do-you-think" 
+            } 
+            , 
+       
+            "blog-press-release-ob1-raises-5-million-series-a-financing-to-grow-world-s-largest-decentralized-marketplace": { 
+                "title": "Press Release: OB1 Raises $5 million Series A Financing to Grow World's Largest Decentralized Marketplace", 
+                "content": "Washington, D.C. – March 13, 2018 – OB1, the company building OpenBazaar, today announced a series A round of $5 million. The funds will help capitalize on the explosive growth that OpenBazaar has seen as blockchain and cryptocurrencies have become mainstream. OpenBazaar is the only e-commerce marketplace that offers secure, commission-free trade for both buyers and sellers.Since the launch of the updated 2.0 platform near the end of 2017, over 40,000 nodes globally have joined the OpenBazaar network. In early 2018 OpenBazaar enhanced its value to buyers and sellers by enabling purchases with Bitcoin Cash and Zcash.The round represents a strong validation of OB1’s stewardship of the OpenBazaar network and is led by OMERS Ventures, the venture capital arm of the OMERS pension fund. Bitmain is also contributing to this round and joins existing investors Andreessen Horowitz, Union Square Ventures, BlueYard Capital, Digital Currency Group, and angel investor William Mougayar.“OB1 allows individuals, living anywhere, to buy and sell as part of a truly global marketplace” said Jim Orlando, Managing Partner, OMERS Ventures. “We are excited about the potential represented by OpenBazaar’s decentralized peer-to-peer protocol, and are thrilled about the various implementation paths that Brian and the rest of his team are pursuing.”OB1 will continue to lead development of OpenBazaar to give users more flexibility and control over how they buy and sell goods and services online. Their plans for this year include releasing web and mobile versions of the application as well as giving users new ways to trade with each other, such as making requests and buying and selling cryptocurrencies. OB1 is also expanding the services it offers to users on OpenBazaar, such as the Verified Moderators program, released this week.OB1 CEO Brian Hoffman said, “We are pleased to be partnering with both OMERS Ventures and Bitmain, adding them to a powerhouse international team of investors that are helping our team continue to build the future of free trade on the Internet worldwide. Our goal is to see the OpenBazaar protocol and software empower business owners and consumers alike to shift away from the corporate-controlled legacy systems and engage in ecommerce in a free, fair and independent way.”Users and fans can follow the progress of this open source project and join their community on Slack, Twitter, and Reddit and download the desktop application at OpenBazaar.org", 
+                "url": "/blog/press-release-ob1-raises-$5-million-series-a-financing-to-grow-world-s-largest-decentralized-marketplace" 
+            } 
+            , 
+       
+            "blog-why-openbazaar-is-integrating-new-cryptocurrencies": { 
+                "title": "[VIDEO] Why OpenBazaar is Integrating New Cryptocurrencies", 
+                "content": "OpenBazaar has integrated Bitcoin Cash and Zcash (Beta) for payments. Why?For a few reasons, but two important ones at the core. The first relates to the vision of what we want OpenBazaar to become and the second was just practical.Check out this video OB1 Co-Founder, Sam Patterson, made to explain:    These were the first cryptocurrencies other than Bitcoin to be natively integrated which means that sellers can now receive their payments in these coins. Buyers can also pay with any of dozens of coins as supported by Shapeshift and both of these features give users even more opportunities for customization and control in this decentralized marketplace.Bitcoin Cash and Zcash were chosen to integrate first due to their general technical compatibility with OpenBazaar–being similar to Bitcoin–and the availability of shared development support. Additional coin integrations are coming soon!Want to learn more about coin integrations in OpenBazaar?Please join us on Slack!", 
+                "url": "/blog/why-openbazaar-is-integrating-new-cryptocurrencies" 
+            } 
+             
+       
+    };
+
+
+    (function () {
+
+        function displaySearchResults(results, store) {
+            var searchResults = document.getElementById('search-results');
+
+            if (results.length) { // Are there any results?
+                var appendString = '';
+
+                for (var i = 0; i < results.length; i++) {  // Iterate over the results
+                    var item = store[results[i].ref];
+                    appendString += '<li><a href="/openbazaar' + item.url + '"><h3 class="emphasis-text">' + item.title + '</h3></a>';
+                    appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+                }
+
+                searchResults.innerHTML = appendString;
+            } else {
+                searchResults.innerHTML = '<li>No results found</li>';
+            }
+        }
+
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split('&');
+
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split('=');
+
+                if (pair[0] === variable) {
+                    return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
+                }
+            }
+        }
+
+        var searchTerm = getQueryVariable('query');
+
+        if (searchTerm) {
+            document.getElementById('search-box').setAttribute("value", searchTerm);
+
+            // Initalize lunr with the fields it will be searching on. I've given title
+            // a boost of 10 to indicate matches on this field are more important.
+            var idx = lunr(function () {
+                this.field('id');
+                this.field('title');
+                this.field('url');
+                this.field('content');
+                for (var key in window.store) { // Add the data to lunr
+                    this.add({
+                        'id': key,
+                        'title': window.store[key].title,
+                        'url': window.store[key].url,
+                        'content': window.store[key].content
+                    });
+
+
+                }
+            });
+            var results = idx.search(searchTerm); // Get lunr to perform a search
+            displaySearchResults(results, window.store); // We'll write this in the next section
+
+        }
+    })();
+</script>
+      </div>
+    </main><div class="container">
+    <footer class="row pb-4">
+        <div class="col-12 col-md-8">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="collapse show navbar-collapse text-center text-sm-left" id="navbar-bottom">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/about/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/events/">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/newsletter/">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/contributors/">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/bitcoin/">Need Bitcoin?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/donate/">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/privacy/">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-row justify-content-md-end justify-content-center">
+            <a href="https://twitter.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-twitter d-flex align-items-center"></i>
+            </a>
+            <a href="/openbazaar/slack">
+                <i class="social-icon ml-2 fab fa-slack-hash d-flex align-items-center"></i>
+            </a>
+            <a href="https://www.reddit.com/r/OpenBazaar/">
+                <i class="social-icon ml-2 fab fa-reddit-alien d-flex align-items-center"></i>
+            </a>
+            <a href="https://github.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-github d-flex align-items-center"></i>
+            </a>
+            <a href="mailto:project@openbazaar.org" target="_top">
+                <i class="social-icon ml-2 fas fa-envelope d-flex align-items-center"></i>
+            </a>
+        </div>
+    </footer>
+</div><script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/openbazaar/assets/app-9011f493fc09e558e0b2bb00d1785f4117a54fcaae843db425deeb4a18cbb515.js" type="text/javascript"></script>
+  </body>
+
+</html>
