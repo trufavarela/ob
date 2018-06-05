@@ -507,6 +507,7 @@ a.alternative-link {
 
 .post-openbazaar-link {
   font-size: 1.4375em;
+  @include links($emphasis-color, $emphasis-color, $emphasis-color, $emphasis-color)
 }
 
 //TODO: this is hacky
