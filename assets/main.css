@@ -7167,7 +7167,18 @@ a.alternative-link {
   font-size: 1.4375em; }
 
 .post-openbazaar-link {
-  font-size: 1.4375em; }
+  font-size: 1.4375em;
+  text-decoration: none;
+  color: #252525; }
+  .post-openbazaar-link:visited {
+    text-decoration: none;
+    color: #252525; }
+  .post-openbazaar-link:hover {
+    text-decoration: none;
+    color: #252525; }
+  .post-openbazaar-link:active {
+    text-decoration: none;
+    color: #252525; }
 
 .post-emoji {
   margin-top: -9px; }
@@ -7211,7 +7222,18 @@ hr.help-us-separator {
 
 .recent-updates-title {
   font-size: 0.9375em;
-  font-weight: 700; }
+  font-weight: 700;
+  text-decoration: none;
+  color: #252525; }
+  .recent-updates-title:visited {
+    text-decoration: none;
+    color: #252525; }
+  .recent-updates-title:hover {
+    text-decoration: none;
+    color: #252525; }
+  .recent-updates-title:active {
+    text-decoration: none;
+    color: #252525; }
 
 .recent-updates-body {
   font-size: 0.8125em;
