@@ -1,5 +1,5 @@
 ---
 layout: pages/events
-title: "Get Support for OpenBazaar, an Online Marketplace Alternative"
+title: "Events"
 permalink: events/
 ---

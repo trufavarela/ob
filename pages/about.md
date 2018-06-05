@@ -1,6 +1,6 @@
 ---
 layout: pages/about
-title: "Get Support for OpenBazaar, an Online Marketplace Alternative"
+title: "About"
 permalink: about/
 ---
 
