@@ -582,3 +582,11 @@ hr.help-us-separator {
   background-repeat: repeat-x;
   background-position: center; 
 }
+
+.search-box {
+  &.big {
+    height: 63px;
+    display: block;
+    width: 100%;
+  }
+}
