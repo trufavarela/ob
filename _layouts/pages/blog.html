@@ -8,9 +8,25 @@ layout: default
         </div>
     </section>
 
-    {%- if site.posts.size > 0 -%}
-        {%- for post in site.posts -%}
+    {%- if paginator.posts.size > 0 -%}
+        {%- for post in paginator.posts -%}
             {% include modules/post.html post=post onlyExcerpt=true %}
         {%- endfor -%}
     {%- endif -%}
+    
+    <section class="row pt-0">
+        <div class="col-12">
+            <div class="">
+                {% if paginator.total_pages > 1 %}
+                    {% if paginator.next_page %}
+                        <a href="{{site.baseurl}}/{{ paginator.next_page_path }}" class="alternative-link">&lt;&lt; Older Entries</a>
+                    {% endif %}
+                    {% if paginator.previous_page %}
+                        <a href="{{site.baseurl}}/{{ paginator.previous_page_path }}" class="alternative-link float-right">Newer Entries &gt;&gt;</a>
+                    {% endif %}
+                    
+                {% endif %}
+            </div>
+        </div>
+    </section>
 </div>
