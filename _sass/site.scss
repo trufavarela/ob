@@ -507,7 +507,7 @@ a.alternative-link {
 
 .post-openbazaar-link {
   font-size: 1.4375em;
-  @include links($emphasis-color, $emphasis-color, $emphasis-color, $emphasis-color)
+  @include links($emphasis-color, $emphasis-color, $emphasis-color, $emphasis-color);
 }
 
 //TODO: this is hacky
@@ -556,6 +556,7 @@ hr.help-us-separator {
 .recent-updates-title {
   font-size: 0.9375em;
   font-weight: 700;
+  @include links($emphasis-color, $emphasis-color, $emphasis-color, $emphasis-color);
 }
 
 .recent-updates-body {
