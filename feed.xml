@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://127.0.0.1:8080/openbazaar/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:8080/openbazaar/" rel="alternate" type="text/html" /><updated>2018-06-08T08:27:21+00:00</updated><id>http://127.0.0.1:8080/openbazaar/</id><title type="html">OpenBazaar</title><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &lt;span class='post-title-extra'&gt;&amp; still Getting Data&lt;/span&gt; from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://127.0.0.1:8080/openbazaar/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:8080/openbazaar/" rel="alternate" type="text/html" /><updated>2018-06-08T10:31:15+00:00</updated><id>http://127.0.0.1:8080/openbazaar/</id><title type="html">OpenBazaar</title><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &lt;span class='post-title-extra'&gt;&amp; still Getting Data&lt;/span&gt; from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
 
 &lt;p&gt;In contrast, no one knows how many people use Bitcoin. No one knows how many files have been shared over Bittorrent. No one knows how many trades happen on OpenBazaar.&lt;/p&gt;
 
@@ -8,7 +8,7 @@
 
 &lt;p&gt;If you build a centralized network – and you control the center of the network – you then have access to information about everything that is happening. Centralized systems require all users to connect to a central point of control, and whoever sits at point of control is able to monitor and collect as much data as they please.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/Centralized-network.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;Centralized-network.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Centralized network with central point of control&lt;/p&gt;
 
@@ -24,7 +24,7 @@
 
 &lt;p&gt;Few platforms on the internet today are distributed, but they are growing in number. Bitcoin and other cryptocurrencies are distributed networks. OpenBazaar is distributed, as is Bittorrent. No one can sit in the center and collect information about users on these networks; there is no center at all.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/Decentralized-network.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;Decentralized-network.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Distributed network with no center&lt;/p&gt;
 
@@ -40,7 +40,7 @@
 
 &lt;p&gt;This means that getting an overview of the entire network is difficult, and requires lots of nodes that are connected to different peers. Or it requires a method to “crawl” through the network and look at the state over time and not as a single snapshot.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/19-1024x512.png&quot; alt=&quot;OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;19-1024x512.png&quot; alt=&quot;OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Distributed networks also present another difficulty in stats gathering: churn. Nodes can join and leave the network at any time because users can set up or delete their stores at any time. In centralized systems people joining and leaving is simple to notice, since they are either communicating with the central point of control or they aren’t. In distributed networks you don’t see all other nodes simultaneously and won’t know what’s happening on another part of the network. Even if you were able to perfectly capture the state of the network at one moment, it will likely change in the next moment.&lt;/p&gt;
 
@@ -58,7 +58,7 @@
 
 &lt;p&gt;We believe we’ve figured out a way to retain the privacy of OpenBazaar users while still allowing for relevant stats gathering to aid development. In the &lt;a href=&quot;https://www.openbazaar.org/blog/cryptocurrency-trading-now-available-on-openbazaar/&quot;&gt;2.2.0 release&lt;/a&gt; we introduced an opt-in stats gathering feature. Users are asked when they start the app if they’d like to share anonymous statistics with the OpenBazaar development team, and a list of the data shared is displayed. If users decline then no information is shared. If they accept then only the data that’s displayed will be shared.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/Screenshot-from-2018-05-29-12-14-24.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;Screenshot-from-2018-05-29-12-14-24.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This data has already been helpful to the developers and over time will help us answer many questions that would have been impossible otherwise, due to OpenBazaar’s distributed design. Here are a few numbers we have been able to see over the last couple of weeks:&lt;/p&gt;
 
