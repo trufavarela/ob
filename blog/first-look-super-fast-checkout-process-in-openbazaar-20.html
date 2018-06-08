@@ -7,15 +7,15 @@
 <meta name="generator" content="Jekyll v3.8.3" />
 <meta property="og:title" content="First Look: Super Fast Checkout Process In OpenBazaar 2.0" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="[et_pb_section bb_built=”1”][et_pb_row][et_pb_column type=”4_4”][et_pb_text] Yesterday our designer, Mike Wolf, shared this great tweet about the speed of the purchasing time within OpenBazaar 2.0:" />
-<meta property="og:description" content="[et_pb_section bb_built=”1”][et_pb_row][et_pb_column type=”4_4”][et_pb_text] Yesterday our designer, Mike Wolf, shared this great tweet about the speed of the purchasing time within OpenBazaar 2.0:" />
+<meta name="description" content="Yesterday our designer, Mike Wolf, shared this great tweet about the speed of the purchasing time within OpenBazaar 2.0:" />
+<meta property="og:description" content="Yesterday our designer, Mike Wolf, shared this great tweet about the speed of the purchasing time within OpenBazaar 2.0:" />
 <link rel="canonical" href="http://127.0.0.1:8080/openbazaar/blog/first-look-super-fast-checkout-process-in-openbazaar-20" />
 <meta property="og:url" content="http://127.0.0.1:8080/openbazaar/blog/first-look-super-fast-checkout-process-in-openbazaar-20" />
 <meta property="og:site_name" content="OpenBazaar" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2017-06-30T03:30:00+00:00" />
 <script type="application/ld+json">
-{"description":"[et_pb_section bb_built=”1”][et_pb_row][et_pb_column type=”4_4”][et_pb_text] Yesterday our designer, Mike Wolf, shared this great tweet about the speed of the purchasing time within OpenBazaar 2.0:","@type":"BlogPosting","url":"http://127.0.0.1:8080/openbazaar/blog/first-look-super-fast-checkout-process-in-openbazaar-20","headline":"First Look: Super Fast Checkout Process In OpenBazaar 2.0","dateModified":"2017-06-30T03:30:00+00:00","datePublished":"2017-06-30T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://127.0.0.1:8080/openbazaar/blog/first-look-super-fast-checkout-process-in-openbazaar-20"},"@context":"http://schema.org"}</script>
+{"description":"Yesterday our designer, Mike Wolf, shared this great tweet about the speed of the purchasing time within OpenBazaar 2.0:","@type":"BlogPosting","url":"http://127.0.0.1:8080/openbazaar/blog/first-look-super-fast-checkout-process-in-openbazaar-20","headline":"First Look: Super Fast Checkout Process In OpenBazaar 2.0","dateModified":"2017-06-30T03:30:00+00:00","datePublished":"2017-06-30T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://127.0.0.1:8080/openbazaar/blog/first-look-super-fast-checkout-process-in-openbazaar-20"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" type="image/png" href="/openbazaar/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
@@ -111,84 +111,40 @@
             </div>
             
                 <div class="col-12 text-left post-container">
-                    <p>[et_pb_section bb_built=”1”][et_pb_row][et_pb_column type=”4_4”][et_pb_text] Yesterday our designer, Mike Wolf, shared this great tweet about the speed of the purchasing time within OpenBazaar 2.0:</p>
+                    <p>Yesterday our designer, Mike Wolf, shared this great tweet about the speed of the purchasing time within OpenBazaar 2.0:</p>
 
-<blockquote>
-  <p>Purchasing on <a href="https://twitter.com/openbazaar">@OpenBazaar</a> 2.0 takes as little as 10s with the new internal wallet <a href="https://twitter.com/search?q=%24crypto&amp;src=ctag">$crypto</a> <a href="https://twitter.com/search?q=%24BTC&amp;src=ctag">$BTC</a> 😮😮 <a href="https://t.co/nLgKNUh5wg">pic.twitter.com/nLgKNUh5wg</a></p>
+<p>We want to be clear that this is an example of how fast it can be to get through the <em>checkout process</em> within the application, not the time it takes the <em>transaction to clear on Bitcoin</em>. That will still be dependent on the bitcoin network itself.</p>
 
-  <p>— Mike Wolf (@thee_wolf) <a href="https://twitter.com/thee_wolf/status/880470093804654593">June 29, 2017</a></p>
-</blockquote>
-
-<p>We want to be clear that this is an example of how fast it can be to get through the <em>checkout process</em> within the application, not the time it takes the <em>transaction to clear on Bitcoin</em>. That will still be dependent on the bitcoin network itself. <strong>Why is the checkout process this fast, now?</strong></p>
+<p><strong>Why is the checkout process this fast, now?</strong></p>
 
 <blockquote>
   <p>Because of the internal wallet!</p>
 </blockquote>
 
-<p>In the current version of OpenBazaar there is no built-in wallet so users need to use a wallet external to the app in order to make purchases. This gif shows the new process for OpenBazaar 2.0, launching soon, which has a wallet built into the application. Instead of being forced to use an external wallet, you will be able to pay bitcoin into the OpenBazaar wallet–where you still control your own keys locally–and then make payments as shown in the gif. This new wallet is an SPV wallet where each user owns their own keys. Users will have this wallet by default though they can swap it out for bitcoind if they prefer. The wallet talks directly to the Bitcoin network, meaning all transactions are on-chain and there are no servers. <strong>Okay…but what’s an SPV wallet? </strong> The most secure way to use Bitcoin is to run a “full node” which means you have the entire copy of the blockchain and you verify all new transactions in new blocks yourself. However, running a full node is inconvenient, requiring a significant amount of disk space and other resources. The average user isn’t going to download the entire blockchain.</p>
+<p>In the current version of OpenBazaar there is no built-in wallet so users need to use a wallet external to the app in order to make purchases. This gif shows the new process for OpenBazaar 2.0, launching soon, which has a wallet built into the application. Instead of being forced to use an external wallet, you will be able to pay bitcoin into the OpenBazaar wallet–where you still control your own keys locally–and then make payments as shown in the gif.</p>
+
+<p>This new wallet is an SPV wallet where each user owns their own keys. Users will have this wallet by default though they can swap it out for bitcoind if they prefer. The wallet talks directly to the Bitcoin network, meaning all transactions are on-chain and there are no servers.</p>
+
+<p><strong>Okay…but what’s an SPV wallet? </strong></p>
+
+<p>The most secure way to use Bitcoin is to run a “full node” which means you have the entire copy of the blockchain and you verify all new transactions in new blocks yourself. However, running a full node is inconvenient, requiring a significant amount of disk space and other resources. The average user isn’t going to download the entire blockchain.</p>
 
 <blockquote>
   <p>That’s where <strong>Simplified Payment Verification (SPV)</strong> wallets come in.</p>
 </blockquote>
 
-<p>The basic idea is that an SPV wallet doesn’t verify everything in blocks as accurate, so it doesn’t need to download the entire chain. It relies on a trusted node for verification. We’re very excited about this new internal wallet because it offers a greater level of convenience and access to users that is reflected in this checkout time.  The whole purchasing flow is smooth and we cannot wait to get OpenBazaar 2.0 into users hands this summer.</p>
+<p>The basic idea is that an SPV wallet doesn’t verify everything in blocks as accurate, so it doesn’t need to download the entire chain. It relies on a trusted node for verification.</p>
+
+<p>We’re very excited about this new internal wallet because it offers a greater level of convenience and access to users that is reflected in this checkout time.  The whole purchasing flow is smooth and we cannot wait to get OpenBazaar 2.0 into users hands this summer.</p>
 
 <hr />
 
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Are you ready to check it out?</strong> <em>Sign up for our newsletter <a href="https://www.openbazaar.org/newsletter">here</a> for opportunities to be one of the first users of version 2.0 <a href="https://openbazaar.org/"></a> Join us on <a href="http://slack.openbazaar.org/">Slack</a>, <a href="https://twitter.com/openbazaar">Twitter</a> or <a href="https://facebook.com/openbazaarproject">Facebook</a></em> <em>And of course, you can still download <a href="https://openbazaar.org/">OpenBazaar v.1</a> to shop right now!</em> [/et_pb_text][et_pb_code admin_label=”Social (ALL)” _builder_version=”3.0.53” custom_css_main_element=”margin: auto;” max_width=”800px” disabled=”off” disabled_on=”off</td>
-      <td>off</td>
-      <td>” saved_tabs=”all”]&lt;div width="100%" style="margin: 0 auto !important;"&gt;<!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] -->&lt;div class="a2a\_kit a2a\_kit\_size\_32 a2a\_default\_style"&gt;<!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_tumblr"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_facebook"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_twitter"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_dd" href="https://www.addtoany.com/share"></a><!-- \[et\_pb\_line\_break\_holder\] -->&lt;/div&gt;<!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] --><script async="" src="https://static.addtoany.com/menu/page.js"></script><!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] -->&lt;/div&gt;[/et_pb_code][/et_pb_column][/et_pb_row][et_pb_row use_custom_width=”on” width_unit=”off” custom_width_percent=”100%” custom_padding=”</td>
-      <td>10%</td>
-      <td> </td>
-      <td>10%” padding_mobile=”off” background_color=”#f2f2f2” column_padding_mobile=”on” background_color_1=”#f2f2f2” parallax_method_1=”off” parallax_method_2=”off” parallax_method_3=”off” parallax_method_4=”off” disabled_on=”off</td>
-      <td>off</td>
-      <td>” custom_css_main_element=”border-top: solid 1px #ccc;</td>
-      <td> </td>
-      <td>border-bottom: solid 1px #ccc;” background_position=”top_left” background_repeat=”repeat” background_size=”initial” _builder_version=”3.0.53” background_position_1=”top_left” background_repeat_1=”no-repeat” disabled=”off”][et_pb_column type=”4_4”][et_pb_text admin_label=”Medium Links (Desktop)” max_width=”1000px” disabled_on=”on</td>
-      <td>on</td>
-      <td>” custom_css_main_element=”margin: auto;” background_position=”top_left” background_repeat=”repeat” background_size=”initial” _builder_version=”3.0.53” background_layout=”light” text_orientation=”left” border_style=”solid” disabled=”off”]</td>
-    </tr>
-  </tbody>
-</table>
+<p><strong>Are you ready to check it out?</strong></p>
 
-<h3 id="recent-updates">Recent Updates</h3>
+<p><em>Sign up for our newsletter <a href="https://www.openbazaar.org/newsletter">here</a> for opportunities to be one of the first users of version 2.0<a href="https://openbazaar.org/"><br />
+</a>Join us on <a href="http://slack.openbazaar.org/">Slack</a>, <a href="https://twitter.com/openbazaar">Twitter</a> or <a href="https://facebook.com/openbazaarproject">Facebook</a></em></p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>[/et_pb_text][et_pb_text admin_label=”Medium Links (Tablet)” max_width=”1000px” disabled_on=”on</td>
-      <td>off</td>
-      <td>on” custom_css_main_element=”margin: auto;</td>
-      <td> </td>
-      <td>padding-left: 10px;</td>
-      <td> </td>
-      <td>padding-right: 10px;” background_position=”top_left” background_repeat=”repeat” background_size=”initial” _builder_version=”3.0.53” background_layout=”light” text_orientation=”left” border_style=”solid” disabled=”off”]</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="recent-updates-1">Recent Updates</h3>
-
-<table>
-  <tbody>
-    <tr>
-      <td>[/et_pb_text][et_pb_text admin_label=”Medium Links (Mobile)” max_width=”1000px” disabled_on=”off</td>
-      <td>on</td>
-      <td>on” custom_css_main_element=”margin: auto;</td>
-      <td> </td>
-      <td>padding-left: 10px;</td>
-      <td> </td>
-      <td>padding-right: 10px;” background_position=”top_left” background_repeat=”repeat” background_size=”initial” _builder_version=”3.0.53” background_layout=”light” text_orientation=”left” border_style=”solid” disabled=”off”]</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="recent-updates-2">Recent Updates</h3>
-
-<p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]</p>
+<p><em>And of course, you can still download <a href="https://openbazaar.org/">OpenBazaar v.1</a> to shop right now!</em></p>
 
                 </div>
             
@@ -279,16 +235,14 @@
                         
                             <div class="card p-3 mb-4">
                                 <div class="card-body d-flex flex-column justify-content-between">
-                                    <a href="/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar">
-                                        <h5 class="recent-updates-title">Cryptocurrency Trading Now Available on OpenBazaar</h5>
+                                    <a href="/openbazaar/blog/openbazaar-2018-roadmap-community-call-agenda">
+                                        <h5 class="recent-updates-title">OpenBazaar 2018 Roadmap Community Call Agenda</h5>
                                     </a>
                                     <div class="recent-updates-body mt-2">
-                                        <p>OpenBazaar <strong>version 2.2.0</strong> was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.</p>
-
-
+                                        <p>We are looking forward to seeing you this <strong>Thursday, April 26th at 11am EST</strong> to discuss the 2018 development roadmap and determine some priorities together as a community! Since we are expecting quite a few attendees, we want to share...
                                     </div>
 
-                                    <a href="/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar" class="button small mt-4 mx-auto">read more</a>
+                                    <a href="/openbazaar/blog/openbazaar-2018-roadmap-community-call-agenda" class="button small mt-4 mx-auto">read more</a>
                                 </div>
                             </div>
                         
