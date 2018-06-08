@@ -25,7 +25,7 @@ Because this new version is built on IPFS, OpenBazaar stores can now be accessib
 
 Third party search providers are now accessible from within the client. Search results are much faster and more accurate than they were before.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-search.gif)
+![](openbazaar-search.gif)
 
 **Tor**
 
@@ -35,7 +35,7 @@ You can now use Tor with OpenBazaar 2.0 for more privacy. You can follow [these
 
 This new version of OpenBazaar includes lots of added features for vendors, including inventory management, expanded shipping options, variants, and more.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-2.0-variants.gif)
+![](openbazaar-2.0-variants.gif)
 
 **Built-in Wallet**
 

@@ -4,7 +4,7 @@ layout: post
 date: '2017-03-03 00:30:00 -0300'
 ---
         
-![Guiding Great Development](https://www.openbazaar.org/wp-content/uploads/2017/03/Guiding-Great-Development-1024x512.png)
+![Guiding Great Development](Guiding-Great-Development-1024x512.png)
 
 _ [OpenBazaar](https://blog.openbazaar.org) Front End Lead **Josh Jeffryes** describes the evolution of OB1’s collaboration process for our entirely remote team building the decentralized marketplace, OpenBazaar:_
 

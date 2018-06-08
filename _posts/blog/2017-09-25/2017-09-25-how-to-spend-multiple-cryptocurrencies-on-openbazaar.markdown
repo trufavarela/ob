@@ -5,7 +5,7 @@ date: '2017-09-25 00:30:00 -0300'
 
 ---
         
-![How To Spend Multiple Cryptocurrencies in OpenBazaar](https://www.openbazaar.org/wp-content/uploads/2017/09/How-To-Spend-Multiple-Cryptocurrencies-in-OpenBazaar-1024x512.png)
+![How To Spend Multiple Cryptocurrencies in OpenBazaar](How-To-Spend-Multiple-Cryptocurrencies-in-OpenBazaar-1024x512.png)
 
 OpenBazaar is built on Bitcoin. However, our goal is to make OpenBazaar cryptocurrency agnostic, meaning people will be able to spend and receive in whatever cryptocurrency they choose. That’s not a simple task, and it will take some time to get there. But before we achieve that goal there is still a way to use a wide variety of other cryptocurrencies in OpenBazaar.
 

@@ -4,7 +4,7 @@ layout: post
 date: '2017-08-02 00:30:00 -0300'
 ---
         
-![OpenBazaar 1.1.13 Update](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-1.1.13-Update-1024x512.png)
+![OpenBazaar 1.1.13 Update](OpenBazaar-1.1.13-Update-1024x512.png)
 
 We have released our latest [1.1.13 update](https://openbazaar.org/download.html) to address connectivity issues some of our users have reported recently and to note some additional functionality added.
 

@@ -4,7 +4,7 @@ layout: post
 date: '2017-09-09 00:30:00 -0300'
 ---
         
-![OpenBazaar 2.0 Beta Released](https://www.openbazaar.org/wp-content/uploads/2017/09/OpenBazaar-2.0-Beta-Released-1024x512.png)  
+![OpenBazaar 2.0 Beta Released](OpenBazaar-2.0-Beta-Released-1024x512.png)  
 After a month in alpha testing, the OpenBazaar 2.0 beta has now been released. You can [download the beta](https://www.openbazaar.org/beta/) now. If you try the beta, **please note the warnings and follow the guidelines and tutorial on the beta page.**
 
 The beta uses _real Bitcoin and real listings_.
@@ -32,7 +32,7 @@ Because this new version is built on IPFS, OpenBazaar stores can now be accessib
 
 Third party search providers are now accessible from within the client. Search results are much faster and more accurate than they were before.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-search.gif)
+![](openbazaar-search.gif)
 
 **Tor**
 
@@ -42,4 +42,4 @@ You can now use Tor with OpenBazaar 2.0 for more privacy. You can follow [these 
 
 This new version of OpenBazaar includes lots of added features for vendors, including inventory management, expanded shipping options, variants, and more.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-2.0-variants.gif)
+![](openbazaar-2.0-variants.gif)

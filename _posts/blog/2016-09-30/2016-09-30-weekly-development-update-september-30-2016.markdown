@@ -17,7 +17,7 @@ This week we completed work on the 1.1.8 release for the OpenBazaar reference cl
 *   Incoming data is now more effectively sanitized, preventing unwanted HTML tags
 *   A bug where addresses that start with handles were malformed if you refreshed the app and loaded them from memory was fixed
 
-**2.0** ![OpenBazaar 2.0 In Client Search](https://blog.openbazaar.org/wp-content/uploads/2016/09/OpenBazaar-2.0-In-Client-Search-697x1024.png)
+**2.0** ![OpenBazaar 2.0 In Client Search](OpenBazaar-2.0-In-Client-Search-697x1024.png)
 
 *   Designed the 3rd party search experience within the client
 *   Avatar and header images can now be loaded in the Settings/Page modal, and will show on the navigation bar and the user page

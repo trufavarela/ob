@@ -12,7 +12,7 @@ In preparation of the full OpenBazaar 2.0 launch later this month we’re now hi
 
 To be notified when the beta is live, please [sign up for our newsletter](http://ob1.us14.list-manage1.com/subscribe?u=ebb5d4d5a336e9beebdc36911&id=66c0aaaa42).
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/OpenBazaar-2.0-Search-Experience-1024x663.png)
+![](OpenBazaar-2.0-Search-Experience-1024x663.png)
 
 Get ready for major improvements when searching for listings in OpenBazaar 2.0! We went back to the drawing board and recreated the search experience from the ground up.
 

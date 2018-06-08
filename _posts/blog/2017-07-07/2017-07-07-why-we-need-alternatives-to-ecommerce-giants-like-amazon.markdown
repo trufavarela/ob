@@ -4,7 +4,7 @@ layout: post
 date: '2017-07-07 00:30:00 -0300'
 ---
         
-[![Why We Need Alternatives to Ecommerce Giants Like Amazon - OpenBazaar is a decentralized, peer-to-peer marketplace that uses Bitcoin](https://blog.openbazaar.org/wp-content/uploads/2017/07/Why-We-Need-Alternatives-to-Ecommerce-Giants-Like-Amazon.png)](https://blog.openbazaar.org/wp-content/uploads/2017/07/Why-We-Need-Alternatives-to-Ecommerce-Giants-Like-Amazon.png)
+[![Why We Need Alternatives to Ecommerce Giants Like Amazon - OpenBazaar is a decentralized, peer-to-peer marketplace that uses Bitcoin](Why-We-Need-Alternatives-to-Ecommerce-Giants-Like-Amazon.png)](Why-We-Need-Alternatives-to-Ecommerce-Giants-Like-Amazon.png)
 
 Amazon has seen incredible growth since its founding in 1994. Originally focused on books, the online marketplace is now the largest retailer in the US, and the fourth most valuable public company in the world. With its recent acquisition of Whole Foods, it becomes even more valuable.
 

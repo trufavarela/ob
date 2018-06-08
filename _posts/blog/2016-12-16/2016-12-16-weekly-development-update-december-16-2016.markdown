@@ -17,7 +17,7 @@ Current Version
 
  
 
-[![Customize Page Design OpenBazaar 2.0](https://blog.openbazaar.org/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-1.57.34-PM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-1.57.34-PM.png)
+[![Customize Page Design OpenBazaar 2.0](Screen-Shot-2016-12-16-at-1.57.34-PM.png)](Screen-Shot-2016-12-16-at-1.57.34-PM.png)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.0

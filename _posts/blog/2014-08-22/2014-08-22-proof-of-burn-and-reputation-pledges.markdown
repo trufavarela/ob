@@ -9,7 +9,7 @@ OpenBazaar uses a particular implementation of proof-of-burn that we call _Reput
 Proof-of-burn
 -------------
 
-[![bitfiregray](https://blog.openbazaar.org/wp-content/uploads/2014/08/bitfiregray.png)](https://blog.openbazaar.org/wp-content/uploads/2014/08/bitfiregray.png) Proof-of-burn is a term used to describe the intentional and provable destruction of bitcoin for a particular purpose. When engaging in a proof-of-burn, funds are intentionally sent to an address that is unspendable, meaning those coins are gone forever. Why would someone destroy bitcoin on purpose? In the past, this has primarily been used to bootstrap one cryptocurrency from another. Distribution of a new cryptocurrency can be determined by people burning their coins in exchange for the new currency, thus showing they are invested. For an example of this, read through Counterparty's [explanation](https://wiki.counterparty.io/w/Proof_of_Burn) of their proof-of-burn.
+[![bitfiregray](bitfiregray.png)](bitfiregray.png) Proof-of-burn is a term used to describe the intentional and provable destruction of bitcoin for a particular purpose. When engaging in a proof-of-burn, funds are intentionally sent to an address that is unspendable, meaning those coins are gone forever. Why would someone destroy bitcoin on purpose? In the past, this has primarily been used to bootstrap one cryptocurrency from another. Distribution of a new cryptocurrency can be determined by people burning their coins in exchange for the new currency, thus showing they are invested. For an example of this, read through Counterparty's [explanation](https://wiki.counterparty.io/w/Proof_of_Burn) of their proof-of-burn.
 
 Reputation Pledges
 ------------------

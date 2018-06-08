@@ -21,7 +21,7 @@ date: '2016-12-02 00:30:00 -0300'
 
 *   Updated the [OpenBazaar download page](http://openbazaar.org/download.html) to make the options more clear
 
-[![OpenBazaar Updated Download Page](https://blog.openbazaar.org/wp-content/uploads/2016/12/Screen-Shot-2016-12-02-at-11.55.32-AM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/12/Screen-Shot-2016-12-02-at-11.55.32-AM.png)
+[![OpenBazaar Updated Download Page](Screen-Shot-2016-12-02-at-11.55.32-AM.png)](Screen-Shot-2016-12-02-at-11.55.32-AM.png)
 
 2.0
 ---

@@ -4,7 +4,7 @@ layout: post
 date: '2017-03-15 00:30:00 -0300'
 ---
         
-[![BMW M Power Store on OpenBazaar](https://blog.openbazaar.org/wp-content/uploads/2017/03/Screen-Shot-2017-03-14-at-10.51.26-AM.png)](https://blog.openbazaar.org/wp-content/uploads/2017/03/Screen-Shot-2017-03-14-at-10.51.26-AM.png)
+[![BMW M Power Store on OpenBazaar](Screen-Shot-2017-03-14-at-10.51.26-AM.png)](Screen-Shot-2017-03-14-at-10.51.26-AM.png)
 
 In [these posts](https://blog.openbazaar.org/category/ecosystem/#.WJi7LLYrKV4) we take a look at some unique members of the OpenBazaar ecosystem and share their stores. In this post we are exploring a store that boasts a brand you may already know called BMW. Yes, like the cars! But no, while cars _could_ be sold through OpenBazaar, they aren’t here at the moment, but you can get some great promotional items available in **BMW M Power Store.** You can check it out [in your browser ](https://duosear.ch/@bmwmpower)or on OpenBazaar [here](ob://3c5752ac73b1075112b09d969851bd5c93a52b9f).
 

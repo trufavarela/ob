@@ -10,7 +10,7 @@ In [part 1](https://medium.com/@therealopenbazaar/decentralized-reputation-in-op
 
 We learned that Vendor or Moderator reputation is composed of individual _transaction ratings_. Transaction ratings feed into a **reputation score**, with granular detail related to their activity as either a Vendor or Moderator. Transaction ratings are tied to a bitcoin transaction and recorded as a JSON-formatted _transaction summary_ of the trade.
 
-[![Tx summary](https://blog.openbazaar.org/wp-content/uploads/2015/10/Tx-summary.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Tx-summary.png)
+[![Tx summary](Tx-summary.png)](Tx-summary.png)
 
 _Transaction summaries_ contain the minimum amount of metadata required to provably link a Vendor to a bitcoin transaction and listing contract, while maintaining the privacy of the Buyer by default.
 
@@ -70,7 +70,7 @@ Irrespective of the approach used to make a reputation pledge, we can arrive at 
 1.  Assuming all users that contributed to the reputation score are sockpuppets
 2.  Summing the reputation pledges of each identity.
 
-\[caption id="attachment_633" align="aligncenter" width="678"\][![Assuming each identity is secretly created by Alice, it would have cost her $100 in reputation pledges.](https://blog.openbazaar.org/wp-content/uploads/2015/10/Reputation-Pledge-Calc.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Reputation-Pledge-Calc.png) Assuming each identity is secretly created by Alice, it would have cost her $100 in reputation pledges.\[/caption\]
+\[caption id="attachment_633" align="aligncenter" width="678"\][![Assuming each identity is secretly created by Alice, it would have cost her $100 in reputation pledges.](Reputation-Pledge-Calc.png)](Reputation-Pledge-Calc.png) Assuming each identity is secretly created by Alice, it would have cost her $100 in reputation pledges.\[/caption\]
 
 The _Sybil cost_ represents the maximum amount Alice would have paid to create a 100% fake reputation score; the _actual_ cost may be lower if other users have legitimately rated her positively. Ancillary costs involved in a Sybil attack are not included in this estimate, only the **reputation pledge** values for each identity.
 
@@ -87,13 +87,13 @@ The aggregate history of _transaction summaries_ of a user is the data-set to ca
 
 One approach is to break up the reputation score, of the Vendor or Moderator, into 3 classes or the ‘3 seashells’.
 
-\[caption id="attachment_634" align="aligncenter" width="648"\][![The 3 Seashells… yes I’m a fan of Demolition Man](https://blog.openbazaar.org/wp-content/uploads/2015/10/3-Seashells-1024x605.jpg)](https://blog.openbazaar.org/wp-content/uploads/2015/10/3-Seashells.jpg) The 3 Seashells… yes I’m a fan of Demolition Man\[/caption\]
+\[caption id="attachment_634" align="aligncenter" width="648"\][![The 3 Seashells… yes I’m a fan of Demolition Man](3-Seashells.jpg)](https://blog.openbazaar.org/wp-content/uploads/2015/10/3-Seashells.jpg) The 3 Seashells… yes I’m a fan of Demolition Man\[/caption\]
 
 #### **Seashell 1: All (red; low reliability)**
 
 The reputation score is calculated from **all _transaction summaries_** that can be found on the network for a Vendor or Moderator. The GUID of the Buyer does not need to be disclosed. Equal weight is assigned to all _transaction summaries_ on the assumption they are all from authentic trades_._
 
-\[caption id="attachment_635" align="aligncenter" width="648"\][![All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed.](https://blog.openbazaar.org/wp-content/uploads/2015/10/Red-Seashell-1024x605.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Red-Seashell.png) All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed.\[/caption\]
+\[caption id="attachment_635" align="aligncenter" width="648"\][![All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed.](Red-Seashell.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Red-Seashell.png) All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed.\[/caption\]
 
 If Buyer’s GUID is undisclosed, they are represented by the Bitcoin address (and signature) from the payout transaction from multisignature escrow address or input address in a direct transaction.
 
@@ -101,7 +101,7 @@ If Buyer’s GUID is undisclosed, they are represented by the Bitcoin address (a
 
 The reputation score is calculated from _transaction summaries_ where the **GUID of the Buyer is disclosed**. Any _transaction summaries_ where the Buyer is **only** represented by a Bitcoin address (i.e. an anonymous transaction) are discarded.
 
-\[caption id="attachment_636" align="aligncenter" width="648"\][![Transaction summaries without the Buyer GUID disclosed are discarded.](https://blog.openbazaar.org/wp-content/uploads/2015/10/Yellow-Seashell-1024x600.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Yellow-Seashell.png) Transaction summaries without the Buyer GUID disclosed are discarded.\[/caption\]
+\[caption id="attachment_636" align="aligncenter" width="648"\][![Transaction summaries without the Buyer GUID disclosed are discarded.](Yellow-Seashell.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Yellow-Seashell.png) Transaction summaries without the Buyer GUID disclosed are discarded.\[/caption\]
 
 The assumption here is that the requirement of the Buyer’s GUID subjects the rating to:
 
@@ -113,7 +113,7 @@ The assumption here is that the requirement of the Buyer’s GUID subjects the r
 
 The reputation score is calculated from _transaction summaries_ where the**Buyer’s GUID is within the user’s web-of-trust** **graph** (WoT).
 
-\[caption id="attachment_637" align="aligncenter" width="648"\][![If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score.](https://blog.openbazaar.org/wp-content/uploads/2015/10/Green-Seashell-1024x599.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Green-Seashell.png) If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score.\[/caption\]
+\[caption id="attachment_637" align="aligncenter" width="648"\][![If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score.](Green-Seashell.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Green-Seashell.png) If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score.\[/caption\]
 
 The assumption here is that you are more likely to believe ratings made by people you trust compared to pseudonymous or random identities on the network.
 
@@ -123,7 +123,7 @@ There are several WoT architectures to choose from. In OpenBazaar, the WoT can b
 
 #### **_Web-of-trust #1:_** _Zindros_
 
-\[caption id="attachment_638" align="aligncenter" width="648"\][![Zindros web-of-trust](https://blog.openbazaar.org/wp-content/uploads/2015/10/Dio-WoT-1024x511.jpg)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Dio-WoT.jpg) Zindros web-of-trust\[/caption\]
+\[caption id="attachment_638" align="aligncenter" width="648"\][![Zindros web-of-trust](Dio-WoT.jpg)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Dio-WoT.jpg) Zindros web-of-trust\[/caption\]
 
 This approach was named after OpenBazaar core contributor [Dionysis Zindros](https://twitter.com/dionyziz), who wrote up a comprehensive specification [outlined here](https://gist.github.com/dionyziz/e3b296861175e0ebea4b).
 
@@ -142,7 +142,7 @@ This designs differs from traditional web-of-trust designs in that is uses a Bit
 
 The line-of-credit (LoC) may either be a 1-of-2 (high liquidity, high trust) **or **2-of-2 (low liquidity, low trust) escrow address where funds are deposited between two nodes. If Alice is added to Bob’s WoT, Bob would deposit bitcoin in a 1-of-2 escrow address that Alice can draw from at any time for any purpose.
 
-\[caption id="attachment_639" align="aligncenter" width="777"\][![Trust is measured by the total amount of credit a user can draw from other users on the network.](https://blog.openbazaar.org/wp-content/uploads/2015/10/LoC-WoT.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/LoC-WoT.png) Trust is measured by the total amount of credit a user can draw from other users on the network.\[/caption\]
+\[caption id="attachment_639" align="aligncenter" width="777"\][![Trust is measured by the total amount of credit a user can draw from other users on the network.](LoC-WoT.png)](LoC-WoT.png) Trust is measured by the total amount of credit a user can draw from other users on the network.\[/caption\]
 
 The OpenBazaar application would keep track of funds borrowed, interest levels, repayment schedules etc, which would contribute to more public metadata to assess the _trustworthiness_ of a user_._ Users are incentivized to open a _line of credit_ to a reputable Vendor, who is likely to earn them interest.
 

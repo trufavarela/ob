@@ -4,7 +4,7 @@ layout: post
 date: '2017-08-01 00:30:00 -0300'
 ---
         
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/Trust-Is-Risk-A-Decentralized-Trust-System-1024x512.png)
+![](Trust-Is-Risk-A-Decentralized-Trust-System-1024x512.png)
 
 One of the foundational problems of a decentralized marketplace is that of trust.
 
@@ -51,7 +51,7 @@ Suppose Bob shares a bank account with his friend Alice. He puts 10€ in it, w
 
 In Bitcoin, we can do the same thing with a transaction that has a 1-of-2 multisig output. A 1-of-2 multisig output means that the money is spendable by either one of the two participants on their own, Alice or Bob. Alice doesn’t need Bob’s permission to spend and Bob doesn’t need Alice’s permission to spend. Here’s what that looks like in the Bitcoin transaction graph:
 
-[![](https://www.openbazaar.org/wp-content/uploads/2017/08/1of2tx-1024x315.png)](https://blog.openbazaar.org/wp-content/uploads/2017/07/1of2tx.png)
+[![](1of2tx.png)](https://blog.openbazaar.org/wp-content/uploads/2017/07/1of2tx.png)
 
 Here, Bob has created a transaction into which he pays 1 BTC so that the money can now belong to an account shared between Alice and Bob. Whenever we mention a “shared account” in this post, we mean such 1-of-2 multisig transaction outputs.
 
@@ -70,7 +70,7 @@ Based on the very simple idea above, we know that people have friends that they 
 
 Imagine now that we provide a new generation of bitcoin wallets. This wallet is called the Trust is Risk wallet. You can move money back and forth between your traditional wallet and your Trust is Risk wallet to your heart’s content. But your Trust is Risk wallet is different: In it, your money can be put in shared accounts with your friends via trust transactions. So, for example, if Alice has 60 mBTC stored in her Trust is Risk wallet, she could have allocated 36 mBTC of it to Charlie and 24 mBTC of it to Bob. That money is under risk: Alice is choosing her friends to put some of her own money under their control, and hopefully she’s choosing wisely. Here’s how her wallet could display her portfolio:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/pie-1024x464.png)
+![](pie-1024x464.png)
 
 Here, she’s putting 36 mBTC in a shared account with Charlie and another 24 mBTC in a shared account with Bob, for a total of 60 mBTC.
 
@@ -85,7 +85,7 @@ Here’s how it works: You trust some money to each of your friends. They trust 
 
 Technically, we say that the web-of-trust forms a _trust graph_ of people connected through lines-of-credit. Here’s how that graph looks like if Alice trusts Bob with 10 coins and Bob trusts Charlie with 20 coins:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/trust-one-step.png)
+![](trust-one-step.png)
 
 Unlike the previous graph where we were showing a Bitcoin transaction with inputs and outputs, here the circles correspond to OpenBazaar accounts and the arrows correspond to lines-of-credit (also known as _direct trusts_) extended between them.
 
@@ -100,7 +100,7 @@ Trust transitivity, especially in a decentralized financial setting, has been ex
 
 Just as an example, here’s what a slightly more complex trust graph looks like:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/trust-graph.png)
+![](trust-graph.png)
 
 Here we have an interesting case of a trust cycle: `A` trusts `D`, who trusts `B`, who trusts `A`.
 
@@ -134,7 +134,7 @@ Two trustworthy friends, Bob and Charlie, persuade her to try out Trust Is Risk.
 
 A few days later, she discovers an online pepper shop, Pepper Palace, owned by Dean, also a member of Trust Is Risk. She finds a nice Carolina Reaper pepper that costs 6 mBTC and checks Dean’s trustworthiness through her new wallet. Suppose Dean is deemed trustworthy up to 20 mBTC. Since 6 mBTC ≤ 20 mBTC, she confidently proceeds to purchase the pepper with her new wallet.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/pepper-1024x859.png)
+![](pepper-1024x859.png)
 
 We call these “20 mBTC” the _allowance_ our system gives to Alice for making purchases from Dean. If she spends any money up to that amount, we can give risk invariance insurances. Spend money beyond that point and she incurs additional risk, which she can of course choose to take.
 
@@ -142,7 +142,7 @@ Hey, by the way, if you’re into peppers, this is a real product you can curren
 
 She can then see in her wallet that her exclusive coins have remained 40 mBTC. But the coins from her shared account with Charlie have been automatically reduced by 4 mBTC and are now down to 32 mBTC. And the coins in her shared account with Bob have been reduced by 2 mBTC and are now down to 22 mBTC. Dean has been paid 6 mBTC, equal to the value of the pepper. Also, her purchase is marked as pending. Under the hood, her wallet redistributed her entrusted coins in a way that ensures Dean has been paid with coins equal to the value of the purchased item and that her risk towards him has remained invariant. The “risk invariance” property is what her wallet has tried to maintain by redistributing the funds in this particular manner – always making sure she’s not exposed to more risk than before.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/redistributed-pie-1024x589.png)
+![](redistributed-pie-1024x589.png)
 
 Eventually all goes well and the pepper reaches Alice. Through her wallet, she marks the purchase as successful.
 

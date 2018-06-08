@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 
 ---
         
-![](https://www.openbazaar.org/wp-content/uploads/2017/12/OpenBazaar-Demo.png)
+![](OpenBazaar-Demo.png)
 
 This article is a high level overview of the OpenBazaar token (OBT). The token will be used as inputs for OBT smart contracts, executed on Ethereum, to embed data pointers for content hosted on the OpenBazaar network.
 
@@ -35,7 +35,7 @@ Each OpenBazaar node monitors OBT smart contracts for state changes correspondin
 
 Using this framework, the following **primary utilities** of the token, described below, can be supported.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/12/OpenBazaar-Figure-1.png)
+![](OpenBazaar-Figure-1.png)
 
 Figure 1. Channels. With channels, any user or group can curate listings, stores, social posts, and even other channels.
 
@@ -45,7 +45,7 @@ A ‘channel’ is a data structure (JSON) that arranges OpenBazaar content (i.e
 
 To monetise a channel, an OpenBazaar smart contract can be deployed on the Ethereum network to auction off, in OBT, premium content positions within a channel. Advertisers can target popular channels to purchase ad space, paying the channel author in OBT.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/12/OpenBazaar-Figure-2.png)
+![](OpenBazaar-Figure-2.png)
 
 Figure 2. Alice creates a listing. The listing has a content address (Address D) that allows anyone on the OpenBazaar P2P network to find the listing and download it. The content address maps to a JSON file, which is the Ricardian contract containing the good or service for sale.
 
@@ -55,7 +55,7 @@ While advertising spaces in a channel can monetise curation by an individual cha
 
 By default, the desktop and OB1 mobile apps will be subscribed to the OpenBazaar channel. As the default channel, it will have a strong position as the regular entry point for discovering new and interesting things for sale in OpenBazaar.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/12/OpenBazaar-Figure-3.png)
+![](OpenBazaar-Figure-3.png)
 
 Figure 3. Alice embeds the listing’s content address (Address D) into the Ethereum blockchain. Alice purchases a state change in an OpenBazaar smart contract using OBT tokens. The transaction results in ‘Address D’ being embedded into the Ethereum blockchain.
 
@@ -75,7 +75,7 @@ The Ethereum contract to support the Vickrey auction for the OpenBazaar channel 
 
 Aside from increasing demand and adding value to OBT investors, it will also support a more robust mechanism for discovery on the network. However, as these channels would not necessarily be included _by default_ in the reference desktop client or OB1 mobile app, users will need to actively find and subscribe to these channels.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/12/OpenBazaar-figure-4.png)
+![](OpenBazaar-figure-4.png)
 
 Figure 4. Alice’s content is discovered by other nodes monitoring OBT contracts in Ethereum. OpenBazaar nodes monitor state changes in the OBT contract, in the Ethereum blockchain, to discover new content. The content itself is distributed across the OpenBazaar network.
 

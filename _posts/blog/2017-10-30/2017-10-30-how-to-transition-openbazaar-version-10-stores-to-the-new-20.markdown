@@ -19,7 +19,7 @@ _Note: If you’ve already installed the new OpenBazaar 2.0, you can skip this s
 
 You can’t import your old listings into a new store without having a new store first. Visit our [download page](https://www.openbazaar.org/download/) to get the latest version of the software. Open the installer and follow the instructions. After clicking “I Agree” to the Terms of Service, you’ll see your new store, looking something like the following image:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/Screenshot-from-2017-10-29-14-58-47-1024x652.png)
+![](Screenshot-from-2017-10-29-14-58-47-1024x652.png)
 
 This means you’ve successfully installed your OpenBazaar 2.0 store and can proceed to the next step. Keep the 2.0 running throughout the rest of the steps.
 
@@ -30,7 +30,7 @@ Step #2: Install the Importer Tool
 
 You should see something like the following image:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/obimporter-1024x794.png)
+![](obimporter-1024x794.png)
 
 If you see the importer tool, you can proceed to the next step.
 
@@ -45,19 +45,19 @@ There are two methods to find your port number. The first involves looking at th
 
 The second method is to open up the version 1.0 application and right click anywhere on the client, then hover over “View” and click “Toggle Developer Tools” as the following image shows:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/Screenshot-from-2017-10-30-16-20-39-1024x653.png)
+![](Screenshot-from-2017-10-30-16-20-39-1024x653.png)
 
 You’ll then see a tool open up on the side of the OpenBazaar client. Click on the “Network” tab on the top, as highlighted in red below, then click on the refresh icon (the circular arrow on the top left of the OpenBazaar client):
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/networktab-1024x650.png)
+![](networktab-1024x650.png)
 
 When you click refresh (or click on anything in the OpenBazaar client while viewing the network tab in developer tools) you’ll see a list of new network calls being made. Click on any one of those network calls, as highlighted in red below:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/Screenshot-from-2017-10-30-16-30-27-1024x646.png)
+![](Screenshot-from-2017-10-30-16-30-27-1024x646.png)
 
 Now click on “Headers” and you’ll see the details of a network call, which will tell you the port number you need. The example picture below shows where to click on the “Headers” tab and then shows where the port number is located:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/Screenshot-from-2017-10-30-16-43-33-1024x646.png)
+![](Screenshot-from-2017-10-30-16-43-33-1024x646.png)
 
 In the above example, the port number is highlighted in blue: 39265. Your port number will be displayed in the same area, directly after http://localhost:\[portnumber\]/api/…
 
@@ -68,7 +68,7 @@ Step #4: Open your version 1.0 OpenBazaar store and export listings
 
 Open the version 1.0 OpenBazaar application. Once it’s running switch to the importer tool. Don’t change the Server IP, but enter the port number you found in the previous step, and don’t check the SSL box. Click on the “Export” button, highlighted in red in this image:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/obimporter2-1024x794.png)
+![](obimporter2-1024x794.png)
 
 If you see red text with a message that says “Error: connect ECONNREFUSED 127.0.0.1:18469” or similar message, you need to make sure that your version 1.0 OpenBazaar application is running and that you entered the correct port number.
 
@@ -91,7 +91,7 @@ Copy the listings.csv file and paste it into a folder you’ll remember.
 
 Now switch to the importer tool. Click the “Choose File” button, highlighted in red below:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/obimporter3-1024x794.png)
+![](obimporter3-1024x794.png)
 
 Navigate to the folder you placed the listings.csv file and select the file. Next to the “Choose File” button the text should now read “listings.csv” instead of “No file chosen.”
 
@@ -99,7 +99,7 @@ Don’t change the OpenBazaar 2.0 IP Address field or Port Number (this port num
 
 With the 2.0 application running, click on the “Import” button, as highlighted in red below:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/importer5.png)
+![](importer5.png)
 
 If you see red text with a message that says “Error: connect ECONNREFUSED 127.0.0.1:4002” or similar message, you need to make sure that your version 2.0 OpenBazaar application is running.
 

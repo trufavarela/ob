@@ -4,7 +4,7 @@ layout: post
 date: '2017-08-24 00:30:00 -0300'
 ---
         
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-Wallet-Integrates-Segwit-1024x512.png)
+![](OpenBazaar-Wallet-Integrates-Segwit-1024x512.png)
 
 Segregated Witness has thankfully activated on the Bitcoin network before the release of OpenBazaar 2.0. This has given us an opportunity to upgrade OpenBazaar to make use of segwit before putting it in the hands of users.
 
@@ -13,7 +13,7 @@ Had segwit activated later, it would have made upgrading to segwit much more dif
 **Specifics**  
 For multisig transactions OpenBazaar will use Bech32 encoded pay-to-witness-script-hash (P2WSH) addresses.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/Segwit-Activated-What-It-Means-for-OpenBazaar.png)
+![](Segwit-Activated-What-It-Means-for-OpenBazaar.png)
 
 The downside to using this address type is that many external wallets are not yet upgraded to send to these addresses. However, the OpenBazaar internal wallet is, so the worse case scenario if you don’t currently use a segwit compatible wallet is that you can send the coins into the OpenBazaar internal wallet and fund your transaction from there.
 

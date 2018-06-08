@@ -4,7 +4,7 @@ layout: post
 date: '2017-06-23 00:30:00 -0300'
 ---
         
-![Why Is Decentralization Important?](https://www.openbazaar.org/wp-content/uploads/2018/05/Why-Is-Decentralization-Important-1024x512.png)
+![Why Is Decentralization Important?](Why-Is-Decentralization-Important-1024x512.png)
 
 In a recent post we talked about how “[decentralization is guiding the ship](https://blog.openbazaar.org/openbazaars-bigger-picture-in-the-bitcoin-debates/).” While the definition of the word can be guessed easily enough, the concept is nuanced and takes some time to understand the costs and benefits of decentralization.
 
@@ -42,11 +42,11 @@ Centralized marketplaces can’t offer these guarantees because their revenue m
 
 On the internet, everything you see is based on files that “live” on a server somewhere. A server is just a name for another computer. Most servers are owned (or rented) by the central authority than runs the website you’re visiting, usually a company. When you use Amazon for shopping, you are connecting to Amazon’s servers, just like everyone else using Amazon. This is a centralized system.
 
-![Centralized Computer to Server Diagram](https://www.openbazaar.org/wp-content/uploads/2018/05/16-1024x512.png) ![Centralized Computer to Server Network Diagram](https://www.openbazaar.org/wp-content/uploads/2018/05/17-1024x512.png)
+![Centralized Computer to Server Diagram](17-1024x512.png) ![Centralized Computer to Server Network Diagram](https://www.openbazaar.org/wp-content/uploads/2018/05/17-1024x512.png)
 
 **The decentralized system – like OpenBazaar – means computers aren’t connecting to a central location. They connect directly to each other. Basically, each user becomes their own server.**
 
-![Decentralized computer to computer, or peer-to-peer, diagram](https://www.openbazaar.org/wp-content/uploads/2018/05/18-1024x512.png) ![OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network](https://www.openbazaar.org/wp-content/uploads/2018/05/19-1024x512.png)
+![Decentralized computer to computer, or peer-to-peer, diagram](19-1024x512.png) ![OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network](https://www.openbazaar.org/wp-content/uploads/2018/05/19-1024x512.png)
 
 This is one of the costs of using a decentralized system. Each participant in a decentralized system takes on some of the power that the centralized authority would normally have, which leads to the benefits mentioned above. It also means that they will have to take extra steps they wouldn’t need to take in a centralized system. In a decentralized political or business structure, this might mean people are forced to direct themselves instead of just taking orders. Their success or failure is then dependent on their own actions instead of the decisions of the central authority.
 

@@ -28,7 +28,7 @@ Here is what’s been happening in the OpenBazaar development universe so far in
 *   Small patches and changes on the front and back end
 *   [OB1](http://ob1.io) Co-Founder Dr. Washington Sanchez has secret project that has been turning out way better than he expected. Make sure you bug him on [Twitter](https://twitter.com/drwasho) to try to get more information out of him on this one.
 
-[![OpenBazaar Version 2.0 Website Homepage Design](https://blog.openbazaar.org/wp-content/uploads/2017/03/Screen-Shot-2017-03-17-at-12.19.36-PM.png)](https://blog.openbazaar.org/wp-content/uploads/2017/03/Screen-Shot-2017-03-17-at-12.19.36-PM.png)
+[![OpenBazaar Version 2.0 Website Homepage Design](Screen-Shot-2017-03-17-at-12.19.36-PM.png)](Screen-Shot-2017-03-17-at-12.19.36-PM.png)
 
 ### OB1
 

@@ -4,7 +4,7 @@ layout: post
 date: '2017-01-31 00:30:00 -0300'
 ---
         
-[![New Year, New Network with OpenBazaar, decentralized bitcoin marketplace](https://blog.openbazaar.org/wp-content/uploads/2017/01/New-Year-New-Network-with-OpenBazaar.png)](https://blog.openbazaar.org/wp-content/uploads/2017/01/New-Year-New-Network-with-OpenBazaar.png)
+[![New Year, New Network with OpenBazaar, decentralized bitcoin marketplace](New-Year-New-Network-with-OpenBazaar.png)](New-Year-New-Network-with-OpenBazaar.png)
 
 **We are all a part of different networks.**
 

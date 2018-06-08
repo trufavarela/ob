@@ -4,7 +4,7 @@ layout: post
 date: '2017-03-09 00:30:00 -0300'
 ---
         
-![The Dangers of Fake Markets](https://www.openbazaar.org/wp-content/uploads/2017/03/The-Dangers-of-Fake-Markets-1024x512.png)
+![The Dangers of Fake Markets](The-Dangers-of-Fake-Markets-1024x512.png)
 
 The Internet facilitates an astounding (and ever-increasing) amount of commerce in our world. Allowing people to communicate with each other anywhere in the world and at low cost has ushered in an new era of global trade.
 

@@ -4,7 +4,7 @@ layout: post
 date: '2017-11-01 00:30:00 -0300'
 ---
         
-![OpenBazaar Buyer Guide - What To Expect You Buy Goods and Services in This Decentralized Marketplace](https://www.openbazaar.org/wp-content/uploads/2017/10/OpenBazaar-Buyer-Expectation-Guide-1024x512.png)
+![OpenBazaar Buyer Guide - What To Expect You Buy Goods and Services in This Decentralized Marketplace](OpenBazaar-Buyer-Expectation-Guide-1024x512.png)
 
 You’re looking to buy on OpenBazaar; welcome! This guide will help you know what to expect when you use the world’s most private, secure, and liberating online marketplace.
 
@@ -14,7 +14,7 @@ First, it’s not a website at all, but software that you must download. This is
 
 ### What does decentralized mean?
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/How-Transactions-Work-Status-Quo-vs-OpenBazaar-1024x724.png)
+![](How-Transactions-Work-Status-Quo-vs-OpenBazaar-1024x724.png)
 
 A decentralized marketplace gives users many advantages over other platforms: no marketplace fees, no data collection, and no censorship.
 

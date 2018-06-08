@@ -4,7 +4,7 @@ layout: post
 date: '2017-02-16 00:30:00 -0300'
 ---
         
-![The Disruption of Disruptive Technology - OpenBazaar Disrupts Ecommerce](https://www.openbazaar.org/wp-content/uploads/2017/02/The-Disruption-of-Disruptive-Technology-1024x512.png)
+![The Disruption of Disruptive Technology - OpenBazaar Disrupts Ecommerce](The-Disruption-of-Disruptive-Technology-1024x512.png)
 
 This new year we’ve been looking at new technologies to see how they could improve our lives. The best example (and the inspiration at the root of [OpenBazaar](https://openbazaar.org)) is [new money](https://blog.openbazaar.org/new-year-new-money/#.WJuBQiErKfZ) – such as Bitcoin – which lets us exchange value with each other directly. No need to rely on banks or other third parties.
 

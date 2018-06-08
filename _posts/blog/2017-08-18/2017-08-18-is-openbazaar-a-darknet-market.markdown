@@ -4,7 +4,7 @@ layout: post
 date: '2017-08-18 00:30:00 -0300'
 ---
         
-![What is a darknet market and how is OpenBazaar different?](https://www.openbazaar.org/wp-content/uploads/2017/08/Is-OpenBazaar-a-Darknet-Market-1024x512.png)
+![What is a darknet market and how is OpenBazaar different?](Is-OpenBazaar-a-Darknet-Market-1024x512.png)
 
 [OpenBazaar](https://openbazaar.org/download) is a new way to do commerce online, and people are often unclear exactly how it is different from traditional ecommerce platforms. We sometimes have people look at the features of this network and confuse OpenBazaar with so-called “darknet markets.”
 

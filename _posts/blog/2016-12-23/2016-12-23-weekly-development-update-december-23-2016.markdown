@@ -10,7 +10,7 @@ date: '2016-12-23 00:30:00 -0300'
 *   The network can host listings, stores, and user profiles
 *   Users can follow and unfollow
 
-  [![OpenBazaar 1.1.10 Released - Purchase with Ether, Monero and More Via ShapeShift.io Integration](https://blog.openbazaar.org/wp-content/uploads/2016/12/OpenBazaar-1.1.10-Released-Purchase-with-Ether-Monero-and-More-Via-ShapeShift.io-Integration1.png)](https://blog.openbazaar.org/wp-content/uploads/2016/12/OpenBazaar-1.1.10-Released-Purchase-with-Ether-Monero-and-More-Via-ShapeShift.io-Integration1.png)  
+  [![OpenBazaar 1.1.10 Released - Purchase with Ether, Monero and More Via ShapeShift.io Integration](OpenBazaar-1.1.10-Released-Purchase-with-Ether-Monero-and-More-Via-ShapeShift.io-Integration1.png)](OpenBazaar-1.1.10-Released-Purchase-with-Ether-Monero-and-More-Via-ShapeShift.io-Integration1.png)  
 
 Current Version
 ---------------

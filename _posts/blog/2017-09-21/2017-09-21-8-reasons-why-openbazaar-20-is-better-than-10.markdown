@@ -3,7 +3,7 @@ title: "8 Reasons Why OpenBazaar 2.0 Is Better Than 1.0"
 layout: post
 date: '2017-09-21 00:30:00 -0300'
 ---
- ![](https://www.openbazaar.org/wp-content/uploads/2017/09/8-Reasons-Why-OpenBazaar-2.0-Is-Better-Than-1.0-1024x512.png)
+ ![](8-Reasons-Why-OpenBazaar-2.0-Is-Better-Than-1.0-1024x512.png)
 
 The first version of OpenBazaar launched in April of 2016 and has been used by tens of thousands of people around the world since then.But building the world’s first fully decentralized marketplace is no simple task, and the first version had[ some limitations](https://blog.openbazaar.org/current-limitations-of-the-openbazaar-software/). After 250,000+ downloads of version 1.0 we received huge amount of feedback and suggestions–and we’ve taken them to heart. 
 
@@ -11,7 +11,7 @@ The culmination of this effort is [OpenBazaar 2.0](https://www.openbazaar.org/do
 
 ### **1\. Your OpenBazaar Store is Available 24/7**
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/ipfslogo-150x150.png)
+![](ipfslogo-150x150.png)
 
 The OpenBazaar network is completely peer-to-peer with no middleman. This is great of course, but it used to mean that they needed to be on a computer that was running _constantly. _
 
@@ -21,7 +21,7 @@ In 2.0 stores can still be accessible even when they aren’t online. This is po
 
 ### **2\. Even More Privacy with Tor**
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/torlogo-300x181.png)
+![](torlogo-300x181.png)
 
 [Tor](https://www.torproject.org/) is a tool that gives users more privacy online. Now OpenBazaar users can run OpenBazaar over Tor to give them even more control over their own privacy.
 
@@ -29,7 +29,7 @@ OpenBazaar doesn’t use Tor by default though. If you want to use Tor with Open
 
 ### **3\. Improved and Integrated Search Experience**
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-search.gif)
+![](openbazaar-search.gif)
 
 Search is now built into the client itself and there are multiple search providers that users can easily switch between.
 
@@ -37,7 +37,7 @@ Search is now built into the client itself and there are multiple search provide
 
 In the old version of OpenBazaar people would use an external wallet for their transactions, but the new version has a built-in wallet. This makes transactions incredibly simple by just clicking “Pay from Wallet.”
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-2.0-checkout.gif)
+![](openbazaar-2.0-checkout.gif)
 
 It also empowers OpenBazaar users to make more complex transactions than they could with an external wallet, such as managing 1-of-2 multisig transactions for offline ordering or using the latest Segwit format.
 
@@ -45,9 +45,9 @@ It also empowers OpenBazaar users to make more complex transactions than they co
 
 Vendors now have more tools to help them manage their stores, such as inventory management, variants, coupon codes, and detailed shipping options.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-2.0-variants.gif)
+![](openbazaar-2.0-variants.gif)
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-2.0-shipping.gif)
+![](openbazaar-2.0-shipping.gif)
 
 ### **6\. Easier To Install, Improved Stability**
 
@@ -57,7 +57,7 @@ Creating a completely decentralized marketplace is difficult. There are many dif
 
 We received a lot of feedback on how to improve the design of version 1.0 and worked to incorporate much of it into a clean, modern layout. Users will find the experience of shopping and selling on OpenBazaar much improved.
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/openbazaar-2.0-wallet-payment.gif)
+![](openbazaar-2.0-wallet-payment.gif)
 
 ### **8\. Totally Free Ecommerce on More Devices**
 

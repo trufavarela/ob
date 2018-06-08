@@ -24,7 +24,7 @@ This guide is meant to get merchants set up and offering goods and services as q
 
 #### Step Two: Set Communication Information
 
-[![communicationOB](https://blog.openbazaar.org/wp-content/uploads/2015/04/communicationOB-1024x409.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/communicationOB.png)
+[![communicationOB](communicationOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/communicationOB.png)
 
 1.  Click on the Communication section.
 2.  Enter an email address if you want to communicate with other parties via email.
@@ -34,7 +34,7 @@ This guide is meant to get merchants set up and offering goods and services as q
 
 #### Step Three: Create Backup
 
-[![backupOB](https://blog.openbazaar.org/wp-content/uploads/2015/04/backupOB-1024x366.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/backupOB.png)
+[![backupOB](backupOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/backupOB.png)
 
 1.  Click on the Backup section.
 2.  Click Create New Backup.
@@ -52,11 +52,11 @@ This guide is meant to get merchants set up and offering goods and services as q
 
 #### Step Five: Manage Trade
 
-[![sellerOB](https://blog.openbazaar.org/wp-content/uploads/2015/04/sellerOB-1024x313.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/sellerOB.png)
+[![sellerOB](sellerOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/sellerOB.png)
 
 1.  Manage your sales by viewing the My Sales section under the Orders tab. If you have an order, click on it to display details.
 2.  If someone purchases your product, the item will display "Buyer Paid." **Please double check** the linked multisig account in the order description to verify; at this point a buyer can mark an item as paid without actually paying.
-[![productOB](https://blog.openbazaar.org/wp-content/uploads/2015/04/productOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/productOB.png)4.  Determine if you trust the notary involved. Since at this point the buyer chooses the notary, if the two parties are colluding, they can cheat you out of the Bitcoin. You can view the notary involved by clicking "Contract Details" in the item description. Early in the beta, we recommend test transactions or small transactions until trusted notaries become established.
+[![productOB](productOB.png)](productOB.png)4.  Determine if you trust the notary involved. Since at this point the buyer chooses the notary, if the two parties are colluding, they can cheat you out of the Bitcoin. You can view the notary involved by clicking "Contract Details" in the item description. Early in the beta, we recommend test transactions or small transactions until trusted notaries become established.
 5.  If you verify the buyer has sent the funds to multisig, and that you trust the notary, then ship the item to the buyer at the address they provided. This address is displayed in the "Shipping Information" tab when viewing the order.
 6.  Once you've shipped the item, input your Bitcoin address into the Shipping & Payment section of the order view, where it asks "Where would you like payment sent to?"
 7.  Once the buyer receives the item, they should release payment. If they don't in a reasonable time, contact the buyer and request they release funds. If they are non-responsive, contact the notary involved in the transaction and request they release funds.

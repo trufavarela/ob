@@ -14,7 +14,7 @@ Why can some networks give precise statistics about how they’re being used, wh
 
 If you build a centralized network – and you control the center of the network – you then have access to information about everything that is happening. Centralized systems require all users to connect to a central point of control, and whoever sits at point of control is able to monitor and collect as much data as they please.
 
-![](https://www.openbazaar.org/wp-content/uploads/2018/05/Centralized-network.png)
+![](Centralized-network.png)
 
 Centralized network with central point of control
 
@@ -30,7 +30,7 @@ Distributed networks are fundamentally different from centralized networks. Ther
 
 Few platforms on the internet today are distributed, but they are growing in number. Bitcoin and other cryptocurrencies are distributed networks. OpenBazaar is distributed, as is Bittorrent. No one can sit in the center and collect information about users on these networks; there is no center at all.
 
-![](https://www.openbazaar.org/wp-content/uploads/2018/05/Decentralized-network.png)
+![](Decentralized-network.png)
 
 Distributed network with no center
 
@@ -46,7 +46,7 @@ One of the difficulties in collecting stats from distributed networks is the fac
 
 This means that getting an overview of the entire network is difficult, and requires lots of nodes that are connected to different peers. Or it requires a method to “crawl” through the network and look at the state over time and not as a single snapshot.
 
-![OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network](https://www.openbazaar.org/wp-content/uploads/2018/05/19-1024x512.png)
+![OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network](19-1024x512.png)
 
 Distributed networks also present another difficulty in stats gathering: churn. Nodes can join and leave the network at any time because users can set up or delete their stores at any time. In centralized systems people joining and leaving is simple to notice, since they are either communicating with the central point of control or they aren’t. In distributed networks you don’t see all other nodes simultaneously and won’t know what’s happening on another part of the network. Even if you were able to perfectly capture the state of the network at one moment, it will likely change in the next moment.
 
@@ -64,7 +64,7 @@ This is a limitation from the developer’s perspective, but it’s a feature fr
 
 We believe we’ve figured out a way to retain the privacy of OpenBazaar users while still allowing for relevant stats gathering to aid development. In the [2.2.0 release](https://www.openbazaar.org/blog/cryptocurrency-trading-now-available-on-openbazaar/) we introduced an opt-in stats gathering feature. Users are asked when they start the app if they’d like to share anonymous statistics with the OpenBazaar development team, and a list of the data shared is displayed. If users decline then no information is shared. If they accept then only the data that’s displayed will be shared.
 
-![](https://www.openbazaar.org/wp-content/uploads/2018/05/Screenshot-from-2018-05-29-12-14-24.png)
+![](Screenshot-from-2018-05-29-12-14-24.png)
 
 This data has already been helpful to the developers and over time will help us answer many questions that would have been impossible otherwise, due to OpenBazaar’s distributed design. Here are a few numbers we have been able to see over the last couple of weeks:
 

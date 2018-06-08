@@ -10,7 +10,7 @@ date: '2017-01-06 00:30:00 -0300'
 *   The network can host listings, stores, and user profiles
 *   Users can follow and unfollow
 
-  [![OpenBazaar version 2.0 Chat Design](https://blog.openbazaar.org/wp-content/uploads/2017/01/Screen-Shot-2017-01-06-at-3.19.14-PM.png)](https://blog.openbazaar.org/wp-content/uploads/2017/01/Screen-Shot-2017-01-06-at-3.19.14-PM.png)
+  [![OpenBazaar version 2.0 Chat Design](Screen-Shot-2017-01-06-at-3.19.14-PM.png)](Screen-Shot-2017-01-06-at-3.19.14-PM.png)
 
 2.0
 ---

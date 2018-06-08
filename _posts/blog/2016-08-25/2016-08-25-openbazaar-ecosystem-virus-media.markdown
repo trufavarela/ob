@@ -6,7 +6,7 @@ date: '2016-08-25 00:30:00 -0300'
         
 In [these posts](https://blog.openbazaar.org/snapshot-of-the-openbazaar-ecosystem-at-the-beginning/) we take a look at some unique members of the OpenBazaar ecosystem. Today we interview a vendor - Virus Media - selling various items, among them handmade crocheted items. You can find Virus Media on OpenBazaar at [@virusmedia](ob://@virusmedia/store), and on Duosearch [here](https://duosear.ch/@virusmedia).
 
-  [![OBstoreVirusMedia](https://blog.openbazaar.org/wp-content/uploads/2016/07/OBstoreVirusMedia.png)](https://blog.openbazaar.org/wp-content/uploads/2016/07/OBstoreVirusMedia.png)  
+  [![OBstoreVirusMedia](OBstoreVirusMedia.png)](OBstoreVirusMedia.png)  
 
 **Tell us a bit about yourself?**
 
@@ -24,7 +24,7 @@ Our goal is to tap each family member's natural skills and passions that could b
 
  
 
-[![virusmedia](https://blog.openbazaar.org/wp-content/uploads/2016/08/virusmedia.png)](https://blog.openbazaar.org/wp-content/uploads/2016/08/virusmedia.png)
+[![virusmedia](virusmedia.png)](virusmedia.png)
 
  
 

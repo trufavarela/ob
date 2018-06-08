@@ -19,7 +19,7 @@ Using the installer is simple. Click the link to download the file, and then ope
 
 The first time you run OpenBazaar, it might take longer than expected to start properly. You may see something like the following image:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-2.0-Testing-Setup-Error-1024x605.png)
+![](OpenBazaar-2.0-Testing-Setup-Error-1024x605.png)
 
 OpenBazaar is actually two programs that users run on your computer, the client (what you see) and the server (which does the work in the background). This message means that the client is running, but the server hasn’t started properly yet. Wait a few seconds, then click the “Retry” button, and your client and server should connect. If this doesn’t work after a few tries, then your server might not be starting at all and you should report this to our developers (see “Reporting” section below).
 
@@ -30,11 +30,11 @@ Now that OpenBazaar is installed, you can begin testing. You will first go throu
 
 In the alpha testing phase the test builds will automatically use testnet Bitcoins, _not_ real Bitcoins. This is to prevent accidental loss of funds. You can use the built-in wallet to create an address to receive testnet coins by clicking the wallet button on the top right first, then clicking “Receive Money” on the left side of the wallet interface (note the buttons highlighted in red below):
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-2.0-Test-Wallet-Receive-Money-1024x581.png)
+![](OpenBazaar-2.0-Test-Wallet-Receive-Money-1024x581.png)
 
 You’ll see a QR code as well as a testnet Bitcoin address. Copy the testnet Bitcoin address, it should start with a “m” unlike a regular Bitcoin address:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-2.0-Test-Wallet-Copy-Address.png)
+![](OpenBazaar-2.0-Test-Wallet-Copy-Address.png)
 
 With this address, you can visit a [testnet faucet](https://testnet.manu.backend.hamburg/faucet) and receive some free testnet Bitcoin to use. Paste the address into their service and you should receive enough testnet Bitcoins to start. Typically, these coins arrive quickly, but the testnet occasionally has problems and it may take minutes or hours to arrive.
 
@@ -101,7 +101,7 @@ There are multiple ways to report your feedback to the OpenBazaar development te
 
 During testing, the OpenBazaar client includes a built-in tool for giving feedback. Click the “Feedback” button on the bottom right of the client, and you’ll see a form appear:
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-2.0-Testing-Feedback-Button-1024x612.png) ![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-2.0-Testing-Feedback-Form.png)
+![](OpenBazaar-2.0-Testing-Feedback-Form.png) ![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-2.0-Testing-Feedback-Form.png)
 
 This is the preferred reporting method when you’ve found bugs or something not working correctly during testing. _Please include your operating system, a description of what happened, and what you were doing when it happened_.
 

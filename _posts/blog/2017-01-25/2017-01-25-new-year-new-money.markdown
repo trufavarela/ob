@@ -4,7 +4,7 @@ layout: post
 date: '2017-01-25 00:30:00 -0300'
 ---
         
-[![New Year New Money on OpenBazaar using Bitcoin](https://blog.openbazaar.org/wp-content/uploads/2017/01/New-Year-New-Money.png)](https://blog.openbazaar.org/wp-content/uploads/2017/01/New-Year-New-Money.png)   When you think about money, you probably don't think about innovation.
+[![New Year New Money on OpenBazaar using Bitcoin](New-Year-New-Money.png)](New-Year-New-Money.png)   When you think about money, you probably don't think about innovation.
 
 > Monetary innovations occurred every few centuries - millennia even - but this is now changing.
 

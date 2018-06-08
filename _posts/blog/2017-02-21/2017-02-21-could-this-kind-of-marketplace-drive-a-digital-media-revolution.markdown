@@ -6,7 +6,7 @@ date: '2017-02-21 00:30:00 -0300'
         
 Do you feel like the stock photo/art/video space could use some disruption? If you’ve created or bought digital media before you may have encountered some frustration along the way. Up-and-coming vendor **Open Source Photos** has joined OpenBazaar with a lot of ideas about how our marketplace can be paired with another innovative blockchain tool to meet a need and change the world.
 
-![Vendor Spotlight: Open Source Photos on OpenBazaar](https://www.openbazaar.org/wp-content/uploads/2017/02/Open-Source-Photos-1024x512.png)
+![Vendor Spotlight: Open Source Photos on OpenBazaar](Open-Source-Photos-1024x512.png)
 
 **Tell us a bit about yourself. Who are you and what do you make/sell?**
 

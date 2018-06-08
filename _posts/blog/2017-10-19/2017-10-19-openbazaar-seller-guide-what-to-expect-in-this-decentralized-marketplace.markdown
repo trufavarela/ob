@@ -13,7 +13,7 @@ Some parts of this guide will discuss the technical details to help explain why 
 
 ### What does decentralized mean?
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/How-Transactions-Work-Status-Quo-vs-OpenBazaar-1024x724.png)
+![](How-Transactions-Work-Status-Quo-vs-OpenBazaar-1024x724.png)
 
 The primary way OpenBazaar is different from other marketplaces is the fact that’s it’s completely [decentralized](https://blog.openbazaar.org/why-is-decentralization-important/). What does that mean?
 
@@ -79,7 +79,7 @@ If a buyer says they sent a message or a made an order that never shows up on yo
 
 Since you run your store on your own computer, what happens when you shutdown your computer? You might expect that your store would be unreachable to other people, and you’d be right – at least you would have been for previous versions of OpenBazaar. Now OpenBazaar stores can be accessible – and even take orders – when they’re offline. How’s that even possible in a P2P network?
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/09/ipfslogo.png)
+![](ipfslogo.png)
 
 In the 2.0 we have built on top of a new technology called IPFS. This technology allows offline stores and listings to be reseeded (shared) by other online OpenBazaar users. When you view another store or listing, you are automatically reseeding that store to the rest of the network if they go offline. There are also some “push nodes” that allow people to automatically push their new listings onto them and they’ll be reseeded (regular users are _not_ push nodes).
 
@@ -101,7 +101,7 @@ Vendors need to take marketing and advertising into their own hands and work to 
 
 ### 5) Cryptocurrency is awesome and sometimes confusing
 
-![](https://www.openbazaar.org/wp-content/uploads/2017/10/Bitcoin-300x300.png)
+![](Bitcoin-300x300.png)
 
 Eventually OpenBazaar will allow any cryptocurrency for purchases, but currently all orders on OpenBazaar are settled in Bitcoin, Bitcoin Cash or Zcash as chosen by the vendor. OpenBazaar has a cryptocurrenc wallet already built-in, which makes it easy to [fund](https://youtu.be/VzlerMJMOu8?t=4m57s) for buying things. Using this wallet is straightforward, but there are a few aspects of managing your funds and orders that could confuse you.
 

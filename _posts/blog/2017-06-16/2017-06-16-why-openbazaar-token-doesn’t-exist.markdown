@@ -4,7 +4,7 @@ layout: post
 date: '2017-06-16 00:30:00 -0300'
 ---
         
-[![Why OpenBazaar Token Doesn't Exist](https://blog.openbazaar.org/wp-content/uploads/2017/06/Why-OpenBazaar-Token-Doesnt-Exist1.png)](https://blog.openbazaar.org/wp-content/uploads/2017/06/Why-OpenBazaar-Token-Doesnt-Exist1.png)
+[![Why OpenBazaar Token Doesn't Exist](Why-OpenBazaar-Token-Doesnt-Exist1.png)](Why-OpenBazaar-Token-Doesnt-Exist1.png)
 
 If you’re even remotely interested in the world of cryptocurrencies, then you’re aware of a relatively recent phenomenon called ICOs (also called token sales). These ICOs happen when developers of a project announce their intention to create a new coin / token and then allow the public to purchase it. Recent ICOs have been [making headlines](http://www.reuters.com/article/us-bancor-blockchain-idUSKBN1932K6) for raising tens of millions of dollars in only hours or even minutes.
 
