@@ -4,7 +4,7 @@ layout: post
 date: '2016-12-01 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1"\]\[et\_pb\_row\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text \_builder\_version="3.2.1"\] ![How to Choose a Good Moderator on OpenBazaar for a moderated transaction](https://www.openbazaar.org/wp-content/uploads/2016/12/How-to-Choose-a-Moderator-one-OpenBazaar-1024x512.png)
+![How to Choose a Good Moderator on OpenBazaar for a moderated transaction](https://www.openbazaar.org/wp-content/uploads/2016/12/How-to-Choose-a-Moderator-one-OpenBazaar-1024x512.png)
 
 > "I think of a hero as someone who understands the degree of responsibility that comes with his freedom." _\- Bob Dylan (1941 - ), American Singer-Songwriter, Musician, and Poet_
 

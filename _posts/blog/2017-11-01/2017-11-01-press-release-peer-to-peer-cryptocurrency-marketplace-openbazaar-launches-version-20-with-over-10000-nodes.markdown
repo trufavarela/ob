@@ -19,16 +19,3 @@ OpenBazaar has pushed the limits of what peer-to-peer technology can do with a f
 Venture-backed company OB1 is leading the core development of OpenBazaar. OB1 has raised funds from Union Square Ventures, Andreessen Horowitz, BlueYard, Digital Currency Group and angel investor William Mougayar in order to build and launch a completely decentralized marketplace that allows anyone in the world to buy and sell anything to anyone else, anywhere, for free.
 
 Join the great community behind this open source project. Follow the project on [Twitter](https://twitter.com/openbazaar), [Reddit](https://reddit.com/r/openbazaar), [GitHub](https://github.com/openbazaar) or the official website at [OpenBazaar.org](https://openbazaar.org)
-
-###
-### Recent Updates
-
-\[/et\_pb\_text\]\[et\_pb\_text admin\_label="Medium Links (Tablet)" max\_width="1000px" disabled\_on="on|off|on" custom\_css\_main\_element="margin: auto;||padding-left: 10px;||padding-right: 10px;" background\_position="top\_left" background\_repeat="repeat" background\_size="initial" \_builder\_version="3.0.53" background\_layout="light" text\_orientation="left" border_style="solid" disabled="off"\]
-
-### Recent Updates
-
-\[/et\_pb\_text\]\[et\_pb\_text admin\_label="Medium Links (Mobile)" max\_width="1000px" disabled\_on="off|on|on" custom\_css\_main\_element="margin: auto;||padding-left: 10px;||padding-right: 10px;" background\_position="top\_left" background\_repeat="repeat" background\_size="initial" \_builder\_version="3.0.53" background\_layout="light" text\_orientation="left" border_style="solid" disabled="off"\]
-
-### Recent Updates
-
-\[/et\_pb\_text\]\[/et\_pb\_column\]\[/et\_pb\_row\]\[/et\_pb\_section\]
