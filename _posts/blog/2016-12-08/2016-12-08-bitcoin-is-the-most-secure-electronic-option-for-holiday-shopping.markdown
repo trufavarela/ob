@@ -4,7 +4,7 @@ layout: post
 date: '2016-12-08 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1"\]\[et\_pb\_row\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text \_builder\_version="3.0.76" background\_layout="light" border\_style="solid"\]
+
 
 > During the 2016 holiday weekend, global online sales have seen a significant nudge upwards. At the same time, payment card fraud increased by a whopping 20%. Consumer’s financial details are always at risk when dealing with payment cards these days. Bitcoin is a far safer option, as there is no sensitive personal information leaked during the transaction process. _**Source:** [2016 Holiday Shopping Fraud Report Shows Bitcoin Remains Most Secure](http://www.newsbtc.com/2016/12/03/2016-holiday-shopping-fraud-report-shows-bitcoin-remains-secure/)_
 

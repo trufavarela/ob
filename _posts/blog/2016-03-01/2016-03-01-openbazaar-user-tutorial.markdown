@@ -4,7 +4,7 @@ layout: post
 date: '2016-03-01 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1"\]\[et\_pb\_row\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text \_builder\_version="3.0.76" background\_layout="light" border\_style="solid"\] This tutorial will show users how to install OpenBazaar, navigate the network, and make purchases. If you have problems along the way, visit our [help desk](https://openbazaar.zendesk.com/hc/en-us). If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, [join our Slack](http://slack.openbazaar.org/) community.
+ This tutorial will show users how to install OpenBazaar, navigate the network, and make purchases. If you have problems along the way, visit our [help desk](https://openbazaar.zendesk.com/hc/en-us). If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, [join our Slack](http://slack.openbazaar.org/) community.
 
 Step #1 - Download and install OpenBazaar
 =========================================

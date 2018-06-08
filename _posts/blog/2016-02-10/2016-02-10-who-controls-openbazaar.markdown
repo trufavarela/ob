@@ -4,7 +4,7 @@ layout: post
 date: '2016-02-10 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1"\]\[et\_pb\_row\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text \_builder\_version="3.0.76" background\_layout="light" border\_style="solid"\] You’re probably here because you saw or heard about something on the OpenBazaar network that was offensive, or illegal, and then someone directed you to this link to learn more. Perhaps you’re not quite familiar with what OpenBazaar is yet. There are many questions to consider: _How could anyone defend this? How come it’s not shut down? Who controls OpenBazaar?_ This post is meant to answer these questions. First of all, you’ll need to take a moment to understand what OpenBazaar is. Or more importantly, what it isn’t.
+ You’re probably here because you saw or heard about something on the OpenBazaar network that was offensive, or illegal, and then someone directed you to this link to learn more. Perhaps you’re not quite familiar with what OpenBazaar is yet. There are many questions to consider: _How could anyone defend this? How come it’s not shut down? Who controls OpenBazaar?_ This post is meant to answer these questions. First of all, you’ll need to take a moment to understand what OpenBazaar is. Or more importantly, what it isn’t.
 
 ### OpenBazaar is not a website, a company, or an organization
 

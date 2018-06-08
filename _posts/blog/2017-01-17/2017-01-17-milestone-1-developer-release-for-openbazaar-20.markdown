@@ -4,7 +4,7 @@ layout: post
 date: '2017-01-17 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1"\]\[et\_pb\_row\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text \_builder\_version="3.0.76" background\_layout="light" border\_style="solid"\] Today we've reached the milestone 1 version of the OpenBazaar 2.0 software. This release is meant solely for developers and those building or intending to build on top of the OpenBazaar platform. The release is _not_ meant for end users and is missing numerous core features needed for engaging in real transactions. Before the launch of the full version of the 2.0 software we will have a formal beta with a fully featured release; details of this formal beta will be posted on this blog soon. We define milestone 1 as such:
+ Today we've reached the milestone 1 version of the OpenBazaar 2.0 software. This release is meant solely for developers and those building or intending to build on top of the OpenBazaar platform. The release is _not_ meant for end users and is missing numerous core features needed for engaging in real transactions. Before the launch of the full version of the 2.0 software we will have a formal beta with a fully featured release; details of this formal beta will be posted on this blog soon. We define milestone 1 as such:
 
 > Beta Users can download and install the client and server from github, and use it to fill in their profile, store info, and post listings. The network can host listings, stores, and user profiles.
 

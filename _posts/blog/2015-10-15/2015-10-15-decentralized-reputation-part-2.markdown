@@ -4,7 +4,7 @@ layout: post
 date: '2015-10-15 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1"\]\[et\_pb\_row\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text \_builder\_version="3.0.76" background\_layout="light" border\_style="solid"\]
+
 
 In [part 1](https://medium.com/@therealopenbazaar/decentralized-reputation-in-openbazaar-4e3a3d0b0899), we introduced the reputation system for OpenBazaar.
 

@@ -4,7 +4,7 @@ layout: post
 date: '2016-02-25 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1"\]\[et\_pb\_row\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text \_builder\_version="3.0.76" background\_layout="light" border\_style="solid"\] _Note: Setting up your store on a VPS will ensure the server is up 24/7. Services such as [Deploy](https://deploy.ob1.io/) allow you to do this easily._ This guide will show vendors how they can set up an OpenBazaar store, step by step. If you have problems along the way, visit our [help desk](https://openbazaar.zendesk.com/hc/en-us). If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, [join our Slack](http://slack.openbazaar.org/) community.
+ _Note: Setting up your store on a VPS will ensure the server is up 24/7. Services such as [Deploy](https://deploy.ob1.io/) allow you to do this easily._ This guide will show vendors how they can set up an OpenBazaar store, step by step. If you have problems along the way, visit our [help desk](https://openbazaar.zendesk.com/hc/en-us). If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, [join our Slack](http://slack.openbazaar.org/) community.
 
 Step #1 - Download and install OpenBazaar
 =========================================
