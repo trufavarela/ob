@@ -1,5 +1,5 @@
 ---
-title: "Valuing Privacy & still Getting Data from a Decentralized Network" 
+title: "Valuing Privacy <span class='post-title-extra'>& still Getting Data</span> from a Decentralized Network" 
 layout: post
 date: '2018-05-30 00:30:00 -0300'
 ---

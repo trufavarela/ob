@@ -4,8 +4,6 @@ layout: post
 date: '2017-08-24 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1" transparent\_background\_fb="default" \_builder\_version="3.0.47"\]\[et\_pb\_row \_builder\_version="3.0.47" background\_size="initial" background\_position="top\_left" background\_repeat="repeat"\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text admin\_label="Segwit Activated - What It Means for OpenBazaar" \_builder_version="3.0.66"\]
-
 ![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-Wallet-Integrates-Segwit-1024x512.png)
 
 Segregated Witness has thankfully activated on the Bitcoin network before the release of OpenBazaar 2.0. This has given us an opportunity to upgrade OpenBazaar to make use of segwit before putting it in the hands of users.
@@ -42,17 +40,3 @@ OP_CHECKSIG
 OP_ENDIF`
 
 If you have any questions or feedback feel free to drop by the [OpenBazaar Slack](http://slack.openbazaar.org/).
-
-\[/et\_pb\_text\]\[et\_pb\_code admin\_label="Social (ALL)" max\_width="800px" disabled\_on="off|off|" \_builder\_version="3.0.53" custom\_css\_main\_element="margin: auto;" saved\_tabs="all"\]<div width="100%" style="margin: 0 auto !important;"><!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] --><div class="a2a\_kit a2a\_kit\_size\_32 a2a\_default\_style"><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_tumblr"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_facebook"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_twitter"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_dd" href="https://www.addtoany.com/share"></a><!-- \[et\_pb\_line\_break\_holder\] --></div><!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] --><script async src="https://static.addtoany.com/menu/page.js"></script><!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] --></div>\[/et\_pb\_code\]\[/et\_pb\_column\]\[/et\_pb\_row\]\[et\_pb\_row use\_custom\_width="on" width\_unit="off" custom\_width\_percent="100%" custom\_padding="|10%||10%" padding\_mobile="off" background\_color="#f2f2f2" column\_padding\_mobile="on" background\_color\_1="#f2f2f2" parallax\_method\_1="off" parallax\_method\_2="off" parallax\_method\_3="off" parallax\_method\_4="off" background\_position\_1="top\_left" background\_repeat\_1="no-repeat" disabled\_on="off|off|" \_builder\_version="3.0.53" background\_size="initial" background\_position="top\_left" background\_repeat="repeat" custom\_css\_main\_element="border-top: solid 1px #ccc;||border-bottom: solid 1px #ccc;"\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text admin\_label="Medium Links (Desktop)" max\_width="1000px" disabled\_on="on|on|" \_builder\_version="3.0.53" background\_size="initial" background\_position="top\_left" background\_repeat="repeat" custom\_css\_main\_element="margin: auto;"\]
-
-### Recent Updates
-
-\[/et\_pb\_text\]\[et\_pb\_text admin\_label="Medium Links (Tablet)" max\_width="1000px" disabled\_on="on|off|on" \_builder\_version="3.0.53" background\_size="initial" background\_position="top\_left" background\_repeat="repeat" custom\_css\_main\_element="margin: auto;||padding-left: 10px;||padding-right: 10px;"\]
-
-### Recent Updates
-
-\[/et\_pb\_text\]\[et\_pb\_text admin\_label="Medium Links (Mobile)" max\_width="1000px" disabled\_on="off|on|on" \_builder\_version="3.0.53" background\_size="initial" background\_position="top\_left" background\_repeat="repeat" custom\_css\_main\_element="margin: auto;||padding-left: 10px;||padding-right: 10px;"\]
-
-### Recent Updates
-
-\[/et\_pb\_text\]\[/et\_pb\_column\]\[/et\_pb\_row\]\[/et\_pb\_section\]

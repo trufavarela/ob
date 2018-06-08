@@ -39,7 +39,7 @@
             </div>
             {% if include.onlyExcerpt %}
                 <div class="col-12 text-left post-container">
-                    {{ include.post.excerpt }}
+                    {{ include.post.excerpt | | strip_html }}
                 </div>
                 <div class="col-12 text-left">
                     <a href="{{ include.post.url | relative_url }}">Read more...</a>

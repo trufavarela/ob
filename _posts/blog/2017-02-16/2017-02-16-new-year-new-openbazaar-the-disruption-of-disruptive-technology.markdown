@@ -4,32 +4,46 @@ layout: post
 date: '2017-02-16 00:30:00 -0300'
 ---
         
-\[et\_pb\_section bb\_built="1"\]\[et\_pb\_row\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text \_builder\_version="3.0.76" background\_layout="light" border\_style="solid"\] ![The Disruption of Disruptive Technology - OpenBazaar Disrupts Ecommerce](https://www.openbazaar.org/wp-content/uploads/2017/02/The-Disruption-of-Disruptive-Technology-1024x512.png)   This new year we've been looking at new technologies to see how they could improve our lives. The best example (and the inspiration at the root of [OpenBazaar](https://openbazaar.org)) is [new money](https://blog.openbazaar.org/new-year-new-money/#.WJuBQiErKfZ) \- such as Bitcoin - which lets us exchange value with each other directly. No need to rely on banks or other third parties. Also, [new networks](https://blog.openbazaar.org/new-year-new-network/#.WJt7uCErKfY), built intentionally to be decentralized, now provide a way for people to take greater control of their online lives. OpenBazaar is one of these new networks. Launched in 2016 it's being used by people all over the world [right now](https://duosear.ch/) who are buying and selling directly with each other and paying in Bitcoin. Building something as revolutionary as a fully decentralized marketplace has had its challenges and we are so grateful for the feedback we've received from our active users. Enacting that feedback has ended up being a bit broader than we expected and to meet the needs of our community so this year OpenBazaar will become _a brand new network_ again when the 2.0 version of the software launches.
+![The Disruption of Disruptive Technology - OpenBazaar Disrupts Ecommerce](https://www.openbazaar.org/wp-content/uploads/2017/02/The-Disruption-of-Disruptive-Technology-1024x512.png)
+
+This new year we’ve been looking at new technologies to see how they could improve our lives. The best example (and the inspiration at the root of [OpenBazaar](https://openbazaar.org)) is [new money](https://blog.openbazaar.org/new-year-new-money/#.WJuBQiErKfZ) – such as Bitcoin – which lets us exchange value with each other directly. No need to rely on banks or other third parties.
+
+Also, [new networks](https://blog.openbazaar.org/new-year-new-network/#.WJt7uCErKfY), built intentionally to be decentralized, now provide a way for people to take greater control of their online lives.
+
+OpenBazaar is one of these new networks. Launched in 2016 it’s being used by people all over the world [right now](https://duosear.ch/) who are buying and selling directly with each other and paying in Bitcoin.
+
+Building something as revolutionary as a fully decentralized marketplace has had its challenges and we are so grateful for the feedback we’ve received from our active users. Enacting that feedback has ended up being a bit broader than we expected and to meet the needs of our community so this year OpenBazaar will become _a brand new network_ again when the 2.0 version of the software launches.
 
 ### **Why did we decide to do a rebuild rather than an update?**
 
-  It's been exciting to see how people have used the current version of the software, but a lot has changed since we started working on OpenBazaar in 2014. Other technologies have become more mature and reliable. Due to the feedback from our users we saw how we could utilize these new technologies to make the p2p trade experience even better, and we began building a new version of OpenBazaar.
+It’s been exciting to see how people have used the current version of the software, but a lot has changed since we started working on OpenBazaar in 2014. Other technologies have become more mature and reliable. Due to the feedback from our users we saw how we could utilize these new technologies to make the p2p trade experience even better, and we began building a new version of OpenBazaar.
 
 ### Here are the major points of the 2.0 rebuild:
 
-  **Network** This new version of OpenBazaar is being built on top of another very new, decentralized network called the [InterPlanetary File System](https://ipfs.io/) (IPFS). Being built on IPFS is exciting for many reasons but the most practical reason is that that OpenBazaar stores and listings will be cached and seeded between each other, meaning that store data will be distributed across the network. A store which is seeded will no longer need to be online 24/7 for their store and listings to be accessible by others on the network. This was a major piece of the puzzle for building a truly decentralized network that was also incredibly functional--even functional enough to compete with existing (and wildly popular) ecommerce models. **Language** The software is also being rewritten in a new language. Originally in Python, version 2.0 is written in Go to allow for better management of dependencies and for the end user, much easier installation. **Wallet** The new software will have built-in Bitcoin wallets for users. Acquiring and storing Bitcoin can still be a challenge and we wanted the platform to meet users earlier in the game. We are unable to set up a full exchange to facilitate the buying and selling of Bitcoin but we _can_ help users with storage by building a custom wallet into the app. **Privacy** Apart from being further decentralized, the new version will also support [Tor](https://blog.openbazaar.org/development-update-february-3-2017/#.WJuU9xIrKV4), giving users more privacy. An ideological pillar we share with many of our users is that people have a right to privacy in their daily lives, a principle that has gotten tangled up a bit since internet use has gone mainstream. We want buyers and sellers to have as much control over their online trade as possible.
+**Network**
+
+This new version of OpenBazaar is being built on top of another very new, decentralized network called the [InterPlanetary File System](https://ipfs.io/) (IPFS). Being built on IPFS is exciting for many reasons but the most practical reason is that that OpenBazaar stores and listings will be cached and seeded between each other, meaning that store data will be distributed across the network. A store which is seeded will no longer need to be online 24/7 for their store and listings to be accessible by others on the network. This was a major piece of the puzzle for building a truly decentralized network that was also incredibly functional–even functional enough to compete with existing (and wildly popular) ecommerce models.
+
+**Language**
+
+The software is also being rewritten in a new language. Originally in Python, version 2.0 is written in Go to allow for better management of dependencies and for the end user, much easier installation.
+
+**Wallet**
+
+The new software will have built-in Bitcoin wallets for users. Acquiring and storing Bitcoin can still be a challenge and we wanted the platform to meet users earlier in the game. We are unable to set up a full exchange to facilitate the buying and selling of Bitcoin but we _can_ help users with storage by building a custom wallet into the app.
+
+**Privacy**
+
+Apart from being further decentralized, the new version will also support [Tor](https://blog.openbazaar.org/development-update-february-3-2017/#.WJuU9xIrKV4), giving users more privacy. An ideological pillar we share with many of our users is that people have a right to privacy in their daily lives, a principle that has gotten tangled up a bit since internet use has gone mainstream. We want buyers and sellers to have as much control over their online trade as possible.
 
 ### **Want to learn more?**
 
-Check out this teaser video below put together by by our UX / Design Lead, Mike Wolf and read the full 2.0 background feature here: [OpenBazaar 2.0: P2P trade takes the next step](https://medium.com/@therealopenbazaar/openbazaar-2-0-p2p-trade-takes-the-next-step-4d75b7f23ec8#.gj5y5fcjg)   https://youtu.be/q4l9vtGnKfc  
+Check out this teaser video below put together by by our UX / Design Lead, Mike Wolf and read the full 2.0 background feature here: [OpenBazaar 2.0: P2P trade takes the next step](https://medium.com/@therealopenbazaar/openbazaar-2-0-p2p-trade-takes-the-next-step-4d75b7f23ec8#.gj5y5fcjg)
 
 * * *
 
-**Are you a developer who wants to get involved in this early stage?** _Get the details [here](https://blog.openbazaar.org/milestone-1-developer-release-for-openbazaar-2-0)!_ **Just want to get started RIGHT NOW buying and selling with Bitcoin using version 1.0?** _[Download OpenBazaar now](http://openbazaar.org/)!_   \[/et\_pb\_text\]\[et\_pb\_code admin\_label="Social (ALL)" \_builder\_version="3.0.53" custom\_css\_main\_element="margin: auto;" max\_width="800px" disabled="off" disabled\_on="off|off|" saved\_tabs="all"\]<div width="100%" style="margin: 0 auto !important;"><!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] --><div class="a2a\_kit a2a\_kit\_size\_32 a2a\_default\_style"><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_tumblr"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_facebook"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_button\_twitter"></a><!-- \[et\_pb\_line\_break\_holder\] --> <a class="a2a\_dd" href="https://www.addtoany.com/share"></a><!-- \[et\_pb\_line\_break\_holder\] --></div><!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] --><script async src="https://static.addtoany.com/menu/page.js"></script><!-- \[et\_pb\_line\_break\_holder\] --><!-- \[et\_pb\_line\_break\_holder\] --></div>\[/et\_pb\_code\]\[/et\_pb\_column\]\[/et\_pb\_row\]\[et\_pb\_row use\_custom\_width="on" width\_unit="off" custom\_width\_percent="100%" custom\_padding="|10%||10%" padding\_mobile="off" background\_color="#f2f2f2" column\_padding\_mobile="on" background\_color\_1="#f2f2f2" parallax\_method\_1="off" parallax\_method\_2="off" parallax\_method\_3="off" parallax\_method\_4="off" disabled\_on="off|off|" custom\_css\_main\_element="border-top: solid 1px #ccc;||border-bottom: solid 1px #ccc;" background\_position="top\_left" background\_repeat="repeat" background\_size="initial" \_builder\_version="3.0.53" background\_position\_1="top\_left" background\_repeat\_1="no-repeat" disabled="off"\]\[et\_pb\_column type="4\_4"\]\[et\_pb\_text admin\_label="Medium Links (Desktop)" max\_width="1000px" disabled\_on="on|on|" custom\_css\_main\_element="margin: auto;" background\_position="top\_left" background\_repeat="repeat" background\_size="initial" \_builder\_version="3.0.53" background\_layout="light" text\_orientation="left" border_style="solid" disabled="off"\]
+**Are you a developer who wants to get involved in this early stage?**  
+_Get the details [here](https://blog.openbazaar.org/milestone-1-developer-release-for-openbazaar-2-0)!_
 
-### Recent Updates
-
-\[/et\_pb\_text\]\[et\_pb\_text admin\_label="Medium Links (Tablet)" max\_width="1000px" disabled\_on="on|off|on" custom\_css\_main\_element="margin: auto;||padding-left: 10px;||padding-right: 10px;" background\_position="top\_left" background\_repeat="repeat" background\_size="initial" \_builder\_version="3.0.53" background\_layout="light" text\_orientation="left" border_style="solid" disabled="off"\]
-
-### Recent Updates
-
-\[/et\_pb\_text\]\[et\_pb\_text admin\_label="Medium Links (Mobile)" max\_width="1000px" disabled\_on="off|on|on" custom\_css\_main\_element="margin: auto;||padding-left: 10px;||padding-right: 10px;" background\_position="top\_left" background\_repeat="repeat" background\_size="initial" \_builder\_version="3.0.53" background\_layout="light" text\_orientation="left" border_style="solid" disabled="off"\]
-
-### Recent Updates
-
-\[/et\_pb\_text\]\[/et\_pb\_column\]\[/et\_pb\_row\]\[/et\_pb\_section\]
+**Just want to get started RIGHT NOW buying and selling with Bitcoin using version 1.0?**  
+_[Download OpenBazaar now](http://openbazaar.org/)!_
