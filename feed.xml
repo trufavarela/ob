@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://127.0.0.1:8080/openbazaar/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:8080/openbazaar/" rel="alternate" type="text/html" /><updated>2018-06-08T04:38:55+00:00</updated><id>http://127.0.0.1:8080/openbazaar/</id><title type="html">OpenBazaar</title><entry><title type="html">What Do Moderators &amp;amp; Moderated Payments Do on OpenBazaar?</title><link href="http://127.0.0.1:8080/openbazaar/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar" rel="alternate" type="text/html" title="What Do Moderators &lt;span class='post-title-extra'&gt;&amp; Moderated Payments&lt;/span&gt; Do on OpenBazaar?" /><published>2018-05-17T03:49:16+00:00</published><updated>2018-05-17T03:49:16+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/what-do-moderators-&amp;-moderated-payments-do-on-openbazaar</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/what-do-moderators-&amp;-moderated-payments-do-on-openbazaar">&lt;p&gt;Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://127.0.0.1:8080/openbazaar/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:8080/openbazaar/" rel="alternate" type="text/html" /><updated>2018-06-08T04:40:43+00:00</updated><id>http://127.0.0.1:8080/openbazaar/</id><title type="html">OpenBazaar</title><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &amp; still Getting Data from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
+
+&lt;p&gt;In contrast, no one knows how many people use Bitcoin. No one knows how many files have been shared over Bittorrent. No one knows how many trades happen on OpenBazaar.&lt;/p&gt;
+
+&lt;p&gt;Why can some networks give precise statistics about how they’re being used, while others can only give estimations or have no data at all? It comes down to the architecture of the networks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Centralized networks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you build a centralized network – and you control the center of the network – you then have access to information about everything that is happening. Centralized systems require all users to connect to a central point of control, and whoever sits at point of control is able to monitor and collect as much data as they please.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/Centralized-network.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Centralized network with central point of control&lt;/p&gt;
+
+&lt;p&gt;Most platforms on the internet today are centralized, and the central point of control is managed by a company. This is how Facebook, Amazon, and most platforms operate. Those companies sit in the center and collect as much information as they can about their users.&lt;/p&gt;
+
+&lt;p&gt;On the positive side, this allows them to have precise statistics and answer specific questions about how their platform is being used, which makes it easier for them to improve and satisfy users’ needs.&lt;/p&gt;
+
+&lt;p&gt;On the negative side, it means the users on centralized platforms have no privacy from whoever manages the central point of control, and they don’t always use the data they gather just to improve their platform. They sometimes sell the data to others, or even lose the data if someone breaks into the databases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Distributed networks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Distributed networks are fundamentally different from centralized networks. There is no central point of control in a distributed network. All users in the network are equal to other users, and users connect directly to each other. Each user is running software on their computer which connects them to the network, and that computer is called a “node” in the network.&lt;/p&gt;
+
+&lt;p&gt;Few platforms on the internet today are distributed, but they are growing in number. Bitcoin and other cryptocurrencies are distributed networks. OpenBazaar is distributed, as is Bittorrent. No one can sit in the center and collect information about users on these networks; there is no center at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/Decentralized-network.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Distributed network with no center&lt;/p&gt;
+
+&lt;p&gt;On the positive side, this means that users have much more privacy on distributed networks. They aren’t required to connect and share information with a central point of control. They connect directly to other peers and exchange information directly, without necessarily informing others on the network about what they’re doing.&lt;/p&gt;
+
+&lt;p&gt;On the negative side, this makes collecting statistics very difficult, which makes development more difficult. Those building the platform cannot see how users are using their product, and must seek other methods to know how best to improve the product.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How Do Nodes Work?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Individual users set up and control their own nodes, generally from their own personal computers. They have to allow incoming and outgoing connections to participate in the network and connecting to other nodes takes some time.&lt;/p&gt;
+
+&lt;p&gt;One of the difficulties in collecting stats from distributed networks is the fact that most nodes on the network will only connect to a handful of peers at a time. If the network has 1,500 nodes running, each individual node might only be connected to eight or ten other nodes, meaning they only see a small fraction of the overall network.&lt;/p&gt;
+
+&lt;p&gt;This means that getting an overview of the entire network is difficult, and requires lots of nodes that are connected to different peers. Or it requires a method to “crawl” through the network and look at the state over time and not as a single snapshot.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/19-1024x512.png&quot; alt=&quot;OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Distributed networks also present another difficulty in stats gathering: churn. Nodes can join and leave the network at any time because users can set up or delete their stores at any time. In centralized systems people joining and leaving is simple to notice, since they are either communicating with the central point of control or they aren’t. In distributed networks you don’t see all other nodes simultaneously and won’t know what’s happening on another part of the network. Even if you were able to perfectly capture the state of the network at one moment, it will likely change in the next moment.&lt;/p&gt;
+
+&lt;p&gt;This is further complicated by distributed networks that don’t require nodes to be running 24/7, such as OpenBazaar (built on IPFS). This is a good thing and was a major feature built into the version 2.0 release  so that sellers’ stores are still accessible and buyers’ orders can still be processed even if the seller is technically offline, but it complicates the stats. Any attempt at gathering information about the state of the network by looking at &lt;em&gt;online nodes&lt;/em&gt; only will be missing the fact that these offline users are still a part of the network.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OpenBazaar Usage &amp;amp; Stats&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We can partially answer some questions about the OpenBazaar network with indirect data. For example, while we don’t know how many trades occur, we can see when a user leaves a review on a completed purchase. This gives us a very broad range to make estimations from, but is imprecise.&lt;/p&gt;
+
+&lt;p&gt;We try to ascertain node count (the number of computers running the OpenBazaar software), but for the reasons noted above this is difficult. We can only see the number of nodes online and accepting incoming connections (users who have port forwarded), which is a small subset of overall OpenBazaar users.&lt;/p&gt;
+
+&lt;p&gt;This is a limitation from the developer’s perspective, but it’s a feature from the user’s perspective. We built OpenBazaar to be private and it should remain so for people who value their privacy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opt-in Stats Gathering&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We believe we’ve figured out a way to retain the privacy of OpenBazaar users while still allowing for relevant stats gathering to aid development. In the &lt;a href=&quot;https://www.openbazaar.org/blog/cryptocurrency-trading-now-available-on-openbazaar/&quot;&gt;2.2.0 release&lt;/a&gt; we introduced an opt-in stats gathering feature. Users are asked when they start the app if they’d like to share anonymous statistics with the OpenBazaar development team, and a list of the data shared is displayed. If users decline then no information is shared. If they accept then only the data that’s displayed will be shared.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/Screenshot-from-2018-05-29-12-14-24.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This data has already been helpful to the developers and over time will help us answer many questions that would have been impossible otherwise, due to OpenBazaar’s distributed design. Here are a few numbers we have been able to see over the last couple of weeks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Over 1,600 opt-ins since launch – Roughly 15% of users running version 2.2.0&lt;/li&gt;
+  &lt;li&gt;Of this segment who opted in, visitors from 103 countries have driven over 4,500 sessions&lt;/li&gt;
+  &lt;li&gt;English is the language chosen by 68% of users who opted in; Russian, German and Spanish are all at 6% each&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;OpenBazaar is a network that exists for its users and is run by its users. In this marketplace, buyers &amp;amp; sellers have greater control over their experience than in any other marketplace on the planet. We want to know how to make it the best it can be for you–without stepping on your toes.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Help us all make OpenBazaar better and drive forward the capabilities of decentralized platforms by opting into sharing anonymized usage stats.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Download it now by clicking &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;here.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.</summary></entry><entry><title type="html">What Do Moderators &amp;amp; Moderated Payments Do on OpenBazaar?</title><link href="http://127.0.0.1:8080/openbazaar/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar" rel="alternate" type="text/html" title="What Do Moderators &lt;span class='post-title-extra'&gt;&amp; Moderated Payments&lt;/span&gt; Do on OpenBazaar?" /><published>2018-05-17T03:49:16+00:00</published><updated>2018-05-17T03:49:16+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/what-do-moderators-&amp;-moderated-payments-do-on-openbazaar</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/what-do-moderators-&amp;-moderated-payments-do-on-openbazaar">&lt;p&gt;Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.&lt;/p&gt;
 
 &lt;p&gt;It’s a big vision. Much of the work we are doing right now is largely untangling some of the technological and psychological knots the infrastructure and assumptions of the last 20 years have made for us all.&lt;/p&gt;
 
@@ -48,7 +124,68 @@
 
 &lt;p&gt;&lt;strong&gt;Choose your own adventure&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;There are a lot of choices involved in using OpenBazaar, and that’s on purpose. We know it is different from what you may be used to but we are building a marketplace where each user gets to be in control of their own experience with more features and opportunities being built all the time. To see some of the other things the OB1 team is working on to make OpenBazaar the most accessible and expandable ecommerce marketplace on the planet, check out the &lt;a href=&quot;https://www.openbazaar.org/blog/openbazaar-2018-roadmap/&quot;&gt;2018 Roadmap&lt;/a&gt; and make sure to sign up for the &lt;a href=&quot;/openbazaar/newsletter/&quot;&gt;email newsletter&lt;/a&gt; to get the latest updates!&lt;/p&gt;</content><author><name></name></author><summary type="html">Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.</summary></entry><entry><title type="html">Cryptocurrency Trading Now Available on OpenBazaar</title><link href="http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar" rel="alternate" type="text/html" title="Cryptocurrency Trading &lt;span class='post-title-extra-alternative'&gt;Now Available on OpenBazaar&lt;/span&gt;" /><published>2018-05-13T03:49:16+00:00</published><updated>2018-05-13T03:49:16+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar">&lt;p&gt;OpenBazaar &lt;strong&gt;version 2.2.0&lt;/strong&gt; was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.&lt;/p&gt;
+&lt;p&gt;There are a lot of choices involved in using OpenBazaar, and that’s on purpose. We know it is different from what you may be used to but we are building a marketplace where each user gets to be in control of their own experience with more features and opportunities being built all the time. To see some of the other things the OB1 team is working on to make OpenBazaar the most accessible and expandable ecommerce marketplace on the planet, check out the &lt;a href=&quot;https://www.openbazaar.org/blog/openbazaar-2018-roadmap/&quot;&gt;2018 Roadmap&lt;/a&gt; and make sure to sign up for the &lt;a href=&quot;/openbazaar/newsletter/&quot;&gt;email newsletter&lt;/a&gt; to get the latest updates!&lt;/p&gt;</content><author><name></name></author><summary type="html">Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.</summary></entry><entry><title type="html">Cryptocurrency Trading Now Available on OpenBazaar</title><link href="http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar" rel="alternate" type="text/html" title="Cryptocurrency Trading Now Available on OpenBazaar" /><published>2018-05-14T03:30:00+00:00</published><updated>2018-05-14T03:30:00+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar">&lt;p&gt;OpenBazaar &lt;strong&gt;version 2.2.0&lt;/strong&gt; was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.&lt;/p&gt;
+
+&lt;p&gt;The biggest new feature is the ability to &lt;strong&gt;buy and sell cryptocurrencies.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/q6ki3_1Io-U&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;cryptocurrency-trading-on-openbazaar&quot;&gt;Cryptocurrency Trading on OpenBazaar&lt;/h3&gt;
+
+&lt;p&gt;Vendors are now able to use a special new listing type to &lt;strong&gt;sell cryptocurrencies on OpenBazaar&lt;/strong&gt;. They can choose from 44 different cryptocurrencies right now and more will be added over time. Payment must be settled in whichever coin they have chosen for their OpenBazaar store, either Bitcoin, Bitcoin Cash, or Zcash.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.openbazaar.org/wp-content/uploads/2018/05/cryptolistings-1024x648.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because OpenBazaar is completely peer-to-peer, this &lt;strong&gt;is not an exchange&lt;/strong&gt;. This new feature doesn’t include an order book with the ability to choose a target price for buying or selling. This new feature only allows people to trade cryptocurrencies directly with each other at market prices. It benefits from OpenBazaar’s main advantages; users trading cryptocurrencies on the platform &lt;strong&gt;won’t need to pay any fees&lt;/strong&gt; and &lt;strong&gt;they aren’t forced to reveal any identifying information.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ve released this new feature with the goal of listening to the community about how they believe cryptocurrency trading on OpenBazaar can be improved. We plan to rapidly iterate as we receive feedback from users.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;Twitter&lt;/a&gt; to give us your thoughts on this new feature!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;opt-in-analytics&quot;&gt;Opt-in Analytics&lt;/h3&gt;
+
+&lt;p&gt;Because OpenBazaar has been built with privacy in mind, the development team isn’t able to gain much information about how people use the software. This is good for privacy, but can sometimes hinder development. In order to gain more insight on how OpenBazaar is being used – and how to improve it – we’re introducing an &lt;strong&gt;opt-in analytics package&lt;/strong&gt;. Users who choose to opt in will share non-identifying data with the development team. The list of data being shared is displayed when opening the new release for the first time. Users can start or stop sharing data at any time in their Settings.&lt;/p&gt;
+
+&lt;h2 id=&quot;release-notes&quot;&gt;Release Notes&lt;/h2&gt;
+
+&lt;p&gt;This is a major release, which adds buying and selling cryptocurrencies, opt in analytics, and many optimizations and bug fixes.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-features&quot;&gt;New Features&lt;/h3&gt;
+
+&lt;p&gt;– The ability to buy and sell cryptocurrencies was added. The currencies can be sold at market rates. This feature is experimental, and is expected to be rapidly iterated on as we recieve feedback from users. #1308&lt;br /&gt;
+– An opt-in analytics package was added. Users are able to choose to share non-identifying data with the development team. This will facilitate identifying bugs and improving the app. Users can start or stop sharing data at any time. #1277&lt;/p&gt;
+
+&lt;h3 id=&quot;improvements&quot;&gt;Improvements&lt;/h3&gt;
+
+&lt;p&gt;– Norweigan, Polish, and Ukranian translations reached the 80% translated requirement, and were added as options for the client. #1324&lt;br /&gt;
+– When viewing your sales, unfunded orders will now be hidden by default, since you cannot take action on those orders, and they clutter up the list of orders. You can still chose to view those orders. #1310&lt;br /&gt;
+– Listing card image loads will now cancel when the image card is no longer on the screen. This primarily improves the experience when changing pages in the search results or navigating away from a page of search results that hasn’t finished loading. #1309&lt;br /&gt;
+– Verified moderators are now lazy-loaded. This will speed up startup, and notify the user if the list of verified moderators changes while they are looking at information that will be affected by that change. #1298&lt;br /&gt;
+– Verified moderators are loaded from a Tor endpoint if the user is in Tor mode. #1284&lt;/p&gt;
+
+&lt;h3 id=&quot;bug-fixes&quot;&gt;Bug Fixes&lt;/h3&gt;
+
+&lt;p&gt;– Blockdozer changed their URL for viewing BCH transactions, the URL used when viewing details of transactions has been updated. #1320&lt;br /&gt;
+– An issue where the no valid moderators error would show on an error at the same time as the no verified moderators message, and with the wrong formatting, was corrected. #1307&lt;br /&gt;
+– A problem where invalid mods would never stop loading was fixed. #1306&lt;br /&gt;
+– Error messages meant for only the purchase flow no longer appear in the settings/store tab. #1306&lt;br /&gt;
+– Some layout issues with moderator cards were corrected. #1300&lt;br /&gt;
+– In the settings/store tab, if a moderator assigned to your store has become invalid, now the only option is to de-select them. #1300&lt;br /&gt;
+– An unused memo parameter was removed from the purchase call. #1314&lt;br /&gt;
+– A minor layout issue was corrected in the transactions list. #1285&lt;br /&gt;
+– The bug where pages stats are changed to zero in the page tabs on the user page when the page settings are updated was fixed. #1287&lt;br /&gt;
+– A layout issue with verified moderators was fixed. #1270&lt;br /&gt;
+– Store pages will now open if one of the listings in them has an unrecognized currency value. #1269&lt;/p&gt;
+
+&lt;h3 id=&quot;internationalization&quot;&gt;Internationalization&lt;/h3&gt;
+
+&lt;p&gt;We are actively translating the text in the OpenBazaar reference client. If you are interested in volunteering as a translator, you can sign up at https://www.transifex.com/ob1/openbazaar&lt;/p&gt;
+
+&lt;h3 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;/h3&gt;
+
+&lt;p&gt;A special thank you goes out to the many volunteers that provide translations, and to our testers that discovered important issues.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar version 2.2.0 was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.</summary></entry><entry><title type="html">Cryptocurrency Trading Now Available on OpenBazaar</title><link href="http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar" rel="alternate" type="text/html" title="Cryptocurrency Trading &lt;span class='post-title-extra-alternative'&gt;Now Available on OpenBazaar&lt;/span&gt;" /><published>2018-05-13T03:49:16+00:00</published><updated>2018-05-13T03:49:16+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar">&lt;p&gt;OpenBazaar &lt;strong&gt;version 2.2.0&lt;/strong&gt; was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.&lt;/p&gt;
 
 &lt;p&gt;The biggest new feature is the ability to ** buy and sell cryptocurrencies**.&lt;/p&gt;
 
@@ -343,41 +480,4 @@
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;strong&gt;Want to learn more about coin integrations in OpenBazaar?&lt;/strong&gt;&lt;br /&gt;
-Please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar has integrated Bitcoin Cash and Zcash (Beta) for payments. Why?</summary></entry><entry><title type="html">Bitcoin Cash Giveaway - How to Claim your $10 in BCH</title><link href="http://127.0.0.1:8080/openbazaar/blog/bitcoin-cash-giveaway-how-to-claim-your-$10-in-bch" rel="alternate" type="text/html" title="Bitcoin Cash Giveaway - &lt;span class=&quot;post-title-extra-alternative&quot;&gt;How to Claim your $10 in BCH&lt;/span&gt;" /><published>2018-02-07T03:30:00+00:00</published><updated>2018-02-07T03:30:00+00:00</updated><id>http://127.0.0.1:8080/openbazaar/blog/bitcoin-cash-giveaway-%E2%80%93-how-to-claim-your-$10-in-bch</id><content type="html" xml:base="http://127.0.0.1:8080/openbazaar/blog/bitcoin-cash-giveaway-how-to-claim-your-$10-in-bch">&lt;h2 id=&quot;due-to-overwhelming-response-the-bch-giveaway-promotion-is-now-closed-as-of-8am-cst-saturday-february-10th-we-are-working-through-sending-payouts-for-existing-submissions-so-your-patience-is-appreciated&quot;&gt;Due to overwhelming response the BCH giveaway promotion is now closed as of 8am CST Saturday, February 10th. We are working through sending payouts for existing submissions so your patience is appreciated!&lt;/h2&gt;
-
-&lt;div class=&quot;media post-media&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;&lt;img src=&quot;bitcoin-cash.png&quot; alt=&quot;Bitcoin cash&quot; class=&quot;mr-3 post-media-image&quot; /&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;media-body mt-3&quot;&gt;
-    &lt;p&gt;To celebrate the launch of &lt;a href=&quot;https://www.bitcoincash.org&quot;&gt;Bitcoin Cash&lt;/a&gt; and &lt;a href=&quot;https://z.cash./&quot;&gt;Zcash&lt;/a&gt; (Beta) integrations on OpenBazaar last week we are doing something fun!&lt;/p&gt;
-    &lt;p&gt;This week we will be giving away $10 in Bitcoin Cash to users who set up a new BCH node on OpenBazaar.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;heres-how-to-claim-yours&quot;&gt;Here’s how to claim yours:&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;, start a Bitcoin Cash node on OpenBazaar! Here’s how:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;, tag &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;@OpenBazaar&lt;/a&gt; in a tweet including &lt;strong&gt;these 4 things:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Your &lt;strong&gt;OpenBazaar Peer ID&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Your &lt;strong&gt;BCH wallet address&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;The hashtag &lt;strong&gt;#OpenBazaarBCH&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;A &lt;strong&gt;screengrab&lt;/strong&gt; of your home page&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;tweet.png&quot; alt=&quot;OpenBazaar BCH Giveaway Tweet Example&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Here’s the copy that you can select and fill with your own information to enter! Just make sure to also add your screengrab to the tweet:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hey @OpenBazaar, I want my $BCH! My Peer ID is ob://QmSkkZpNFzWubxE4p9Ejjo2CLqq61jxuRF26ZzCmCKaHcJ and my OB BCH wallet is bitcoincash:qqt0cgqnaypju2h2mu8awg40er3yuys2j50qvpkpgd #OpenBazaarBCH&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tweets that do not include &lt;strong&gt;ALL FOUR&lt;/strong&gt; of these items will be considered invalid. Contest runs from 9am CST Wednesday, February 7th until we announce the end on Twitter. Coins will be sent manually so please allow for up to 24 hours for receipt of your coins. One entry per user. Recently created Twitter accounts that appear to be auto-generated or spam will also be disqualified.&lt;/p&gt;
-
-&lt;h2 id=&quot;need-help-finding-your-bch-wallet&quot;&gt;Need help finding your BCH wallet?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;Find-Your-BCH-Wallet-Address-in-OpenBazar.png&quot; alt=&quot;Find Your BCH Wallet Address in OpenBazar&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Due to overwhelming response the BCH giveaway promotion is now closed as of 8am CST Saturday, February 10th. We are working through sending payouts for existing submissions so your patience is appreciated!</summary></entry></feed>
+Please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar has integrated Bitcoin Cash and Zcash (Beta) for payments. Why?</summary></entry></feed>
